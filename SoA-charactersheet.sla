@@ -53,7 +53,11 @@
         </CellStyle>
         <LAYERS NUMMER="0" LEVEL="0" NAME="Background" SICHTBAR="1" DRUCKEN="1" EDIT="1" SELECT="0" FLOW="1" TRANS="1" BLEND="0" OUTL="0" LAYERC="#000000"/>
         <Printer firstUse="1" toFile="0" useAltPrintCommand="0" outputSeparations="0" useSpotColors="0" useColor="0" mirrorH="0" mirrorV="0" useICC="0" doGCR="0" doClip="0" setDevParam="0" useDocBleeds="0" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" includePDFMarks="0" PSLevel="0" PDLanguage="0" markLength="0" markOffset="0" BleedTop="0" BleedLeft="0" BleedRight="0" BleedBottom="0" printer="" filename="" separationName="" printerCommand=""/>
-        <PDF firstUse="1" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB display profile (ICC v2.2)" ImageP="sRGB display profile (ICC v2.2)" PrintP="ISO Coated v2 300% (basICColor)" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="20" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+        <PDF firstUse="0" Thumbnails="0" Articles="0" Bookmarks="0" Compress="1" CMethod="0" Quality="0" EmbedPDF="0" MirrorH="0" MirrorV="0" Clip="0" rangeSel="0" rangeTxt="" RotateDeg="0" PresentMode="0" RecalcPic="0" FontEmbedding="0" Grayscale="0" RGBMode="1" UseProfiles="0" UseProfiles2="0" Binding="0" PicRes="300" Resolution="300" Version="14" Intent="1" Intent2="0" SolidP="sRGB display profile (ICC v2.2)" ImageP="sRGB display profile (ICC v2.2)" PrintP="ISO Coated v2 300% (basICColor)" InfoString="" BTop="0" BLeft="0" BRight="0" BBottom="0" useDocBleeds="1" cropMarks="0" bleedMarks="0" registrationMarks="0" colorMarks="0" docInfoMarks="0" markLength="20.0016" markOffset="0" ImagePr="0" PassOwner="" PassUser="" Permissions="-4" Encrypt="0" UseLayers="0" UseLpi="0" UseSpotColors="1" doMultiFile="0" displayBookmarks="0" displayFullscreen="0" displayLayers="0" displayThumbs="0" hideMenuBar="0" hideToolBar="0" fitWindow="0" openAfterExport="0" PageLayout="0" openAction="">
+            <Fonts Name="Go Mono Bold"/>
+            <Fonts Name="Go Mono Regular"/>
+            <Subset Name="DejaVu Sans Book"/>
+            <LPI Color="" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Black" Frequency="133" Angle="45" SpotFunction="3"/>
             <LPI Color="Cyan" Frequency="133" Angle="105" SpotFunction="3"/>
             <LPI Color="Magenta" Frequency="133" Angle="75" SpotFunction="3"/>
@@ -88,7 +92,7 @@
         </Sections>
         <MASTERPAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="Normal" MNAM="" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
         <PAGE PAGEXPOS="100" PAGEYPOS="20" PAGEWIDTH="612" PAGEHEIGHT="792" BORDERLEFT="40" BORDERRIGHT="40" BORDERTOP="40" BORDERBOTTOM="40" NUM="0" NAM="" MNAM="Normal" Size="Letter" Orientation="0" LEFT="0" PRESET="0" VerticalGuides="" HorizontalGuides="" AGhorizontalAutoGap="0" AGverticalAutoGap="0" AGhorizontalAutoCount="0" AGverticalAutoCount="0" AGhorizontalAutoRefer="0" AGverticalAutoRefer="0" AGSelection="0 0 0 0" pageEffectDuration="1" pageViewDuration="1" effectType="0" Dm="0" M="0" Di="0"/>
-        <PAGEOBJECT XPOS="140" YPOS="76" OwnPage="0" ItemID="1075891209" PTYPE="4" WIDTH="326.75" HEIGHT="61" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L326.75 0 L326.75 61 L0 61 L0 0 Z" copath="M0 0 L326.75 0 L326.75 61 L0 61 L0 0 Z" gXpos="140" gYpos="76" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="277" YPOS="100" OwnPage="0" ItemID="717856835" PTYPE="4" WIDTH="259" HEIGHT="50.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L259 0 L259 50.5 L0 50.5 L0 0 Z" copath="M0 0 L259 0 L259 50.5 L0 50.5 L0 0 Z" gXpos="277" gYpos="100" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle/>
                 <ITEXT FONT="Go Mono Bold" FEATURES="inherit smallcaps" CH="_______________ the _______________"/>
@@ -100,7 +104,7 @@
                 <trail/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="179.75" YPOS="158.5" OwnPage="0" ItemID="1099118057" PTYPE="4" WIDTH="211.75" HEIGHT="123.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="stats" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L211.75 0 L211.75 123.5 L0 123.5 L0 0 Z" copath="M0 0 L211.75 0 L211.75 123.5 L0 123.5 L0 0 Z" gXpos="179.75" gYpos="158.5" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="175.75" YPOS="179.5" OwnPage="0" ItemID="717820131" PTYPE="4" WIDTH="194.75" HEIGHT="123.5" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" ANNAME="stats" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L194.75 0 L194.75 123.5 L0 123.5 L0 0 Z" copath="M0 0 L194.75 0 L194.75 123.5 L0 123.5 L0 0 Z" gXpos="175.75" gYpos="179.5" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle LINESPMode="0" LINESP="24"/>
                 <ITEXT FONT="Go Mono Bold" FONTSIZE="16" FEATURES="inherit smallcaps" CH="Worldliness"/>
@@ -129,18 +133,50 @@
                 <trail LINESPMode="0" LINESP="24"/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="200.75" YPOS="560.375" OwnPage="0" ItemID="1122781209" PTYPE="4" WIDTH="397.5" HEIGHT="201" RADRECT="72" FRTYPE="2" CLIPEDIT="0" PWIDTH="0" PCOLOR2="Black" PLINEART="2" PLINEEND="32" PLINEJOIN="64" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" copath="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" gXpos="200.75" gYpos="560.375" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="200.75" YPOS="326.375" OwnPage="0" ItemID="717872339" PTYPE="4" WIDTH="397.5" HEIGHT="201" RADRECT="72" FRTYPE="2" CLIPEDIT="0" PWIDTH="0" PCOLOR2="Black" PLINEART="2" PLINEEND="32" PLINEJOIN="64" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" copath="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" gXpos="200.75" gYpos="326.375" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0"/>
-                <ITEXT FONT="Go Mono Bold" FEATURES="inherit smallcaps" CH="Skills"/>
-                <trail ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0"/>
+                <ITEXT FONT="Go Mono Bold" FONTSIZE="16" FEATURES="inherit smallcaps" CH="Skills"/>
+                <para ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0"/>
+                <ITEXT FONT="Go Mono Regular" FEATURES="inherit smallcaps" CH="[GEN] + Skill Modifier"/>
+                <trail/>
             </StoryText>
         </PAGEOBJECT>
-        <PAGEOBJECT XPOS="200.75" YPOS="317.375" OwnPage="0" ItemID="1128033449" PTYPE="4" WIDTH="397.5" HEIGHT="201" RADRECT="72" FRTYPE="2" CLIPEDIT="0" PWIDTH="0" PCOLOR2="Black" PLINEART="2" PLINEEND="32" PLINEJOIN="64" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" copath="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" gXpos="200.75" gYpos="317.375" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+        <PAGEOBJECT XPOS="201.75" YPOS="558.375" OwnPage="0" ItemID="717903683" PTYPE="4" WIDTH="397.5" HEIGHT="201" RADRECT="72" FRTYPE="2" CLIPEDIT="0" PWIDTH="0" PCOLOR2="Black" PLINEART="2" PLINEEND="32" PLINEJOIN="64" TEXTFLOWMODE="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" copath="M0 72 C0 32.2355 32.2355 0 72 0 L325.5 0 C365.265 0 397.5 32.2355 397.5 72 L397.5 129 C397.5 168.765 365.265 201 325.5 201 L72 201 C32.2355 201 0 168.765 0 129 L0 72 Z" gXpos="201.75" gYpos="558.375" gWidth="0" gHeight="0" ALIGN="1" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
             <StoryText>
                 <DefaultStyle ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0"/>
-                <ITEXT FONT="Go Mono Bold" FEATURES="inherit smallcaps" CH="Techniques"/>
-                <trail ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0"/>
+                <ITEXT FONT="Go Mono Bold" FONTSIZE="16" FEATURES="inherit smallcaps" CH="Techniques"/>
+                <para ALIGN="1" ParagraphEffectOffset="0" ParagraphEffectIndent="0" DROP="0" DROPLIN="2" Bullet="0" Numeration="0"/>
+                <ITEXT FONT="Go Mono Regular" FEATURES="inherit smallcaps" CH="[ANY] + action/effect"/>
+                <trail/>
+            </StoryText>
+        </PAGEOBJECT>
+        <PAGEOBJECT XPOS="433" YPOS="179.75" OwnPage="0" ItemID="711506291" PTYPE="4" WIDTH="245.5" HEIGHT="84.75" FRTYPE="0" CLIPEDIT="0" PWIDTH="1" PLINEART="1" LOCALSCX="1" LOCALSCY="1" LOCALX="0" LOCALY="0" LOCALROT="0" PICART="1" SCALETYPE="1" RATIO="1" COLUMNS="1" COLGAP="0" AUTOTEXT="0" EXTRA="0" TEXTRA="0" BEXTRA="0" REXTRA="0" VAlign="0" FLOP="0" PLTSHOW="0" BASEOF="0" textPathType="0" textPathFlipped="0" path="M0 0 L245.5 0 L245.5 84.75 L0 84.75 L0 0 Z" copath="M0 0 L245.5 0 L245.5 84.75 L0 84.75 L0 0 Z" gXpos="433" gYpos="179.75" gWidth="0" gHeight="0" LAYER="0" NEXTITEM="-1" BACKITEM="-1">
+            <StoryText>
+                <DefaultStyle/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH=" Awesome"/>
+                <tab FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps"/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="x1.5 for __________"/>
+                <ITEXT FONT="Go Mono Regular" FEATURES="inherit smallcaps" CH="_____"/>
+                <para/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="(Awesome)"/>
+                <tab FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps"/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="x1.5 for __________"/>
+                <ITEXT FONT="Go Mono Regular" FEATURES="inherit smallcaps" CH="_____"/>
+                <para/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="---"/>
+                <para ALIGN="1"/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH=" Awful"/>
+                <tab FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps"/>
+                <tab FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps"/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="÷1.5 for __________"/>
+                <ITEXT FONT="Go Mono Regular" FEATURES="inherit smallcaps" CH="_____"/>
+                <para/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="(Awful)"/>
+                <tab FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps"/>
+                <ITEXT FONT="Go Mono Regular" FONTSIZE="12" FEATURES="inherit smallcaps" CH="÷1.5 for __________"/>
+                <ITEXT FONT="Go Mono Regular" FEATURES="inherit smallcaps" CH="_____"/>
+                <trail/>
             </StoryText>
         </PAGEOBJECT>
     </DOCUMENT>
