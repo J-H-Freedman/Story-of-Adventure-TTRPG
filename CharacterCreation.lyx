@@ -147,11 +147,11 @@ Does my character know/notice...
 \begin_inset Quotes erd
 \end_inset
 
- you roll a KNO
+ you roll a KNO.
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, dump 100 points into your existing Skills however you please
+Upon a BURST, dump 100 points into your existing Skills however you please.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -168,28 +168,20 @@ Power [POW]
 \end_layout
 
 \begin_layout Standard
-Roll a d100, add [POW], and multiply the total by the multiplier 2
+Roll a 2d100 and add [POW] to each result
 \end_layout
 
 \begin_layout Standard
-Any time you would ask, 
-\begin_inset Quotes eld
-\end_inset
-
-Is my character strong enough to...
-\begin_inset Quotes erd
-\end_inset
-
- you roll a POW
+Any time your action is a single extraordinary feat, you roll a POW.
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, increase the multiplier by 1 (e.g.
+Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
  
 \begin_inset Formula $2\rightarrow3$
 \end_inset
 
-)
+).
 \end_layout
 
 \begin_layout Subsubsection*
@@ -199,18 +191,55 @@ Endurance [END]
 \begin_layout Standard
 
 \emph on
-\begin_inset Formula $d100+or-[END]$
+\begin_inset Formula $(d100\pm[END])$
 \end_inset
 
- over multiple turns
+ as 1 turn until pass/fail
 \end_layout
 
 \begin_layout Standard
-If the endurance is being stored, 
+If the endurance is being 
+\emph on
+stored
+\emph default
+, roll a d100 and add [END].
+ The desired effect occurs 
+\emph on
+when
+\emph default
+ the determined threhsold is reached.
 \end_layout
 
 \begin_layout Standard
-If the endurance is being spent, 
+If the endurance is being 
+\emph on
+spent
+\emph default
+, roll a d100 and subtract [END].
+ The desired effect occurs 
+\emph on
+until
+\emph default
+ the determined threshold is reached.
+\end_layout
+
+\begin_layout Standard
+Any time your action would take multiple turns run an END.
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, perminantly increase the 
+\emph on
+turn 
+\emph default
+multiplier by one.
+ This means you roll for an additional turn when 
+\emph on
+storing
+\emph default
+ and skip an additional turn when 
+\emph on
+spending.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -221,10 +250,25 @@ Speed [SPD]
 
 \emph on
 total 
-\begin_inset Formula $d10+[SPD]$
+\begin_inset Formula $(d100+[SPD])$
 \end_inset
 
  until fail
+\end_layout
+
+\begin_layout Standard
+Roll a d100 and add [SPD].
+ If you succeed, roll agian and add 10 to the threashold.
+ If you succeed again, add that roll to the total and repeat the process
+ until you reach the determined maximum successes or fail.
+\end_layout
+
+\begin_layout Standard
+Any time your action encompasses multiple smaller actions, you roll a SPD.
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -235,10 +279,30 @@ Foresight [ESP]
 
 \emph on
 guess 
-\begin_inset Formula $d100\pm[ESP]$
+\begin_inset Formula $d100$
+\end_inset
+
+ within 
+\begin_inset Formula $[ESP]$
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+Guess a number between 00-99.
+ Roll a d100.
+ The desired effect occurs if the rolled number is withing [ESP] of the
+ guessed number.
+\end_layout
+
+\begin_layout Standard
+Any time your character attempts to predict or react to external stimuli,
+ roll ESP.
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, pick an additional number to guess.
 \end_layout
 
 \begin_layout Subsection
