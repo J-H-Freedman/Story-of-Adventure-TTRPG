@@ -94,31 +94,221 @@ Backstory Page
 \end_layout
 
 \begin_layout Subsection
-Intent
+Starting Point
+\end_layout
+
+\begin_layout Standard
+I recommend starting out by listing a core idea to build off of.
+ I recommend starting with a profession and starting technique.
+ If you have the talent, I would also recommend drawing your character.
 \end_layout
 
 \begin_layout Subsection
 Reason to Start
 \end_layout
 
+\begin_layout Standard
+Why is your character going on an adventure? Was there a tragic event? Do
+ you have nowhere else do go? What is it that you seek?
+\end_layout
+
 \begin_layout Subsubsection*
 Person(s) of Influence
+\end_layout
+
+\begin_layout Standard
+For this adventure, who do you hold dear to your heart? Who helped make
+ you the person you are today? How do you remember them?
 \end_layout
 
 \begin_layout Subsection
 Personal Treasure
 \end_layout
 
+\begin_layout Standard
+What is the one thing you cherish more than anything? Why do you cherish
+ it? What would you do if your enemy destroyed it?
+\end_layout
+
 \begin_layout Subsection
 Initial Condition to Finish
 \end_layout
 
+\begin_layout Standard
+What would cause you to cease your journey? This is not a perminant decision-
+ just a starting point to work off of as the adventuer develops.
+\end_layout
+
 \begin_layout Section
-Stat Page
+Ability Page
+\end_layout
+
+\begin_layout Subsection*
+Preface
+\end_layout
+
+\begin_layout Subsubsection*
+Buying Attributes
+\end_layout
+
+\begin_layout Standard
+You have 50 points to spend between your five stats.
+ It is acceptable and expected to have stats of 0.
+ No need to worry- that just means you are average in those areas.
+ You will still make the neccessary rolls; you just won't get bonuses
+\end_layout
+
+\begin_layout Subsubsection*
+BURST
+\end_layout
+
+\begin_layout Standard
+Once an attribute hits 100, it immediately BURSTs.
+ This does a few things:
+\end_layout
+
+\begin_layout Itemize
+Gain a perminant upgrade
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+These upgrades are different based on which attribute has BURST.
+ Please refer to the attribute in question within 2.1
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Gain a technique tied to the Attribute
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Tying techniques to attributes is further explained in 2.3.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Reduce the attribute to 10
+\end_layout
+
+\begin_layout Standard
+Despite the Attribute reduction, I recommend BURSTing whenever possible.
+ However, I also recommend having backup Attributes to compensate for the
+ initial shock.
+\end_layout
+
+\begin_layout Subsubsection*
+Rounds, Turns, and Actions
+\end_layout
+
+\begin_layout Standard
+The structure of how events take place are usually unimportant but are still
+ expected to occur frequently.
+ Hierchy is occurs as follows:
+\end_layout
+
+\begin_layout Enumerate
+Rounds
+\end_layout
+
+\begin_deeper
+\begin_layout Enumerate
+These encompass every character's Turn
+\end_layout
+
+\begin_layout Enumerate
+They are primarily used to ensure that everyone has an opportunity to ac
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Turns
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These mark that the character may now take Actions
+\end_layout
+
+\begin_layout Itemize
+They is primarily used to determine the order of characters taking Actions
+\end_layout
+
+\begin_layout Itemize
+Each character takes one Turn per Round
+\end_layout
+
+\end_deeper
+\begin_layout Enumerate
+Actions
+\end_layout
+
+\begin_deeper
+\begin_layout Itemize
+These are when characters actually do things
+\end_layout
+
+\begin_layout Itemize
+Each character gets two actions per Turn
+\end_layout
+
+\end_deeper
+\begin_layout Subsubsection*
+Notation
+\end_layout
+
+\begin_layout Itemize
+d100 refers to two ten-sided dice
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A one hundred sided die can be used but I recommend against it.
+\end_layout
+
+\end_inset
+
+ rolled to create a number with a range of 100.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Alternatively, this roll can be done digitally to choose a random number
+ within range of 100.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+XXX refers to the attribute XXX and everything that entails.
+\end_layout
+
+\begin_layout Itemize
+[XXX] refers to the variable 
+\begin_inset Quotes eld
+\end_inset
+
+XXX
+\begin_inset Quotes erd
+\end_inset
+
+ itself.
 \end_layout
 
 \begin_layout Subsection
-Stats
+Attributes
 \end_layout
 
 \begin_layout Subsubsection*
@@ -151,7 +341,31 @@ Does my character know/notice...
 \end_layout
 
 \begin_layout Standard
+In addition, [KNO] is added to your Skill checks.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Skill checks are referenced in 2.3
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 Upon a BURST, dump 100 points into your existing Skills however you please.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Skills and how to add points are eplained in 2.3
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsubsection*
@@ -172,7 +386,7 @@ Roll a 2d100 and add [POW] to each result
 \end_layout
 
 \begin_layout Standard
-Any time your action is a single extraordinary feat, you roll a POW
+Any time your action , you roll a POW.
 \end_layout
 
 \begin_layout Standard
@@ -264,11 +478,11 @@ Roll a d100 and add [SPD].
 \end_layout
 
 \begin_layout Standard
-Any time your action encompasses multiple smaller actions, you roll a SPD
+Any time your action encompasses multiple smaller actions, you roll a SPD.
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, preminantly gain an addtional free reroll upon SPD failures
+Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
 \end_layout
 
 \begin_layout Subsubsection*
@@ -278,22 +492,16 @@ Foresight [ESP]
 \begin_layout Standard
 
 \emph on
-guess 
-\begin_inset Formula $d100$
+guess within 
+\begin_inset Formula $\pm[ESP]$
 \end_inset
 
- within 
-\begin_inset Formula $[ESP]$
-\end_inset
-
-
+ against the opposing roll
 \end_layout
 
 \begin_layout Standard
-Guess a number between 00-99.
- Roll a d100.
- The desired effect occurs if the rolled number is withing [ESP] of the
- guessed number.
+Before an opposing roll, you may guess an ESP.
+ If the roll is within the range of your predicted [ESP], you succeed.
 \end_layout
 
 \begin_layout Standard
@@ -302,7 +510,7 @@ Any time your character attempts to predict or react to external stimuli,
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, pick an additional number to guess
+Upon a BURST, pick an additional number to guess.
 \end_layout
 
 \begin_layout Subsection
