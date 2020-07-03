@@ -75,56 +75,24 @@
 
 \begin_body
 
-\begin_layout Part
+\begin_layout Part*
 Basic Mechanics
 \end_layout
 
-\begin_layout Section
-Character vs Obsticle
-\end_layout
-
-\begin_layout Subsection
-Determined Threashold
-\end_layout
-
-\begin_layout Section
+\begin_layout Standard
 Character vs Character
 \end_layout
 
-\begin_layout Subsection
-Damage
+\begin_layout Standard
+Character vs Obsticle
 \end_layout
 
-\begin_layout Section
+\begin_layout Standard
+Determined Threashold
+\end_layout
+
+\begin_layout Standard
 Health and Energy
-\end_layout
-
-\begin_layout Subsection
-Health
-\end_layout
-
-\begin_layout Subsubsection
-Perminanent Wounds
-\end_layout
-
-\begin_layout Subsubsection
-Death
-\end_layout
-
-\begin_layout Subsection
-Energy
-\end_layout
-
-\begin_layout Subsubsection
-Technique Resource
-\end_layout
-
-\begin_layout Subsubsection
-Damage Diversion
-\end_layout
-
-\begin_layout Subsubsection
-Passing Out
 \end_layout
 
 \begin_layout Section
