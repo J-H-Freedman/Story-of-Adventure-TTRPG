@@ -174,7 +174,7 @@ status collapsed
 
 \begin_layout Plain Layout
 These upgrades are different based on which attribute has BURST.
- Please refer to the attribute in question within 2.1
+ Please refer to the attribute in question within 4.1
 \end_layout
 
 \end_inset
@@ -188,7 +188,7 @@ Gain a technique tied to the Attribute
 status collapsed
 
 \begin_layout Plain Layout
-Tying techniques to attributes is further explained in 2.3.
+Tying techniques to attributes is further explained in 4.3.
 \end_layout
 
 \end_inset
@@ -206,76 +206,6 @@ Despite the Attribute reduction, I recommend BURSTing whenever possible.
  initial shock.
 \end_layout
 
-\begin_layout Subsubsection*
-Rounds, Turns, and Actions
-\end_layout
-
-\begin_layout Standard
-The structure of how events take place are usually unimportant but are still
- expected to occur frequently.
- Hierchy is occurs as follows:
-\end_layout
-
-\begin_layout Enumerate
-Rounds
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These encapsulate 
-\emph on
-every
-\emph default
- character's Turn
-\end_layout
-
-\begin_layout Itemize
-After every character has had their turn, a new Round begins
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Turns
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These encapsulate 
-\emph on
-the selected
-\emph default
- character's Actions
-\end_layout
-
-\begin_layout Itemize
-Each character takes one Turn per Round
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Actions
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These are when characters actually do things
-\end_layout
-
-\begin_layout Itemize
-Each character gets two actions per Turn
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The same Action cannot be repeated multiple times within a single Turn
-\end_layout
-
-\begin_layout Itemize
-A Double-Action is when you spend both Actions on a single task
-\end_layout
-
-\end_deeper
-\end_deeper
 \begin_layout Subsubsection*
 Notation
 \end_layout
@@ -306,7 +236,15 @@ Alternatively, this roll can be done digitally to choose a random number
 \end_layout
 
 \begin_layout Itemize
-XXX refers to the attribute XXX and everything that entails.
+XXX refers to the attribute 
+\begin_inset Quotes eld
+\end_inset
+
+XXX
+\begin_inset Quotes erd
+\end_inset
+
+ and everything that entails.
 \end_layout
 
 \begin_layout Itemize
@@ -351,7 +289,7 @@ Does my character know/notice...
 \begin_inset Quotes erd
 \end_inset
 
- you roll a KNO.
+ you may roll a KNO.
 \end_layout
 
 \begin_layout Standard
@@ -360,7 +298,7 @@ In addition, [KNO] is added to your Skill checks.
 status collapsed
 
 \begin_layout Plain Layout
-Skill checks are referenced in 2.3
+Skill checks are referenced in 4.3
 \end_layout
 
 \end_inset
@@ -374,7 +312,7 @@ Upon a BURST, dump 100 points into your existing Skills however you please.
 status collapsed
 
 \begin_layout Plain Layout
-Skills and how to add points are eplained in 2.3
+Skills and how to add points are eplained in 4.3
 \end_layout
 
 \end_inset
@@ -400,7 +338,7 @@ Roll a 2d100 and add [POW] to each result
 \end_layout
 
 \begin_layout Standard
-A POW may be utilized for any Double-Action
+A POW may be utilized for most Double-Actions
 \end_layout
 
 \begin_layout Standard
@@ -419,10 +357,10 @@ Endurance [END]
 \begin_layout Standard
 
 \emph on
-\begin_inset Formula $(d100\pm[END])$
+\begin_inset Formula $(d100\pm[END])\divideontimes1$
 \end_inset
 
- as 1 turn until pass/fail
+ turn until pass/fail
 \end_layout
 
 \begin_layout Standard
@@ -436,6 +374,17 @@ stored
 when
 \emph default
  the determined threhsold is reached.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Storing your endurance produces positive effects in later turns.
+ You want to boost this number as high as you can as quicklly as you can.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -449,10 +398,22 @@ spent
 until
 \emph default
  the determined threshold is reached.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Spending your endurnance prevents undesirable effects from happening.
+ You want to keep the spent number low for as long as possible.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-Any time your action would take multiple turns run an END.
+Any time your action would take multiple turns, you may run an END.
+ Depending on context, an END may either be a basic action or a double-action.
 \end_layout
 
 \begin_layout Standard
@@ -460,12 +421,12 @@ Upon a BURST, perminantly increase the
 \emph on
 turn 
 \emph default
-multiplier by one.
- This means you roll for an additional turn when 
+multiplier by 1.
+ This means you roll an additional action for 
 \emph on
 storing
 \emph default
- and skip an additional turn when 
+ and skip an additional action for 
 \emph on
 spending.
 \end_layout
@@ -486,13 +447,26 @@ total
 
 \begin_layout Standard
 Roll a d100 and add [SPD].
- If you succeed, roll agian and add 10 to the threashold.
- If you succeed again, add that roll to the total and repeat the process
- until you reach the determined maximum successes or fail.
+ If you succeed, create a Stack
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+A Stack is a list of numbers to add together
+\end_layout
+
+\end_inset
+
+ and add the total.
+ Roll agian with +10 to the threashold.
+ If you succeed again, add the total to the stack.
+ Repeat the process until you reach the determined maximum successes (if
+ applicable) or when you fail.
 \end_layout
 
 \begin_layout Standard
-Any time your action encompasses multiple smaller actions, you roll a SPD.
+Any time your action encompasses multiple smaller actions, you may roll
+ a SPD.
 \end_layout
 
 \begin_layout Standard
@@ -514,7 +488,7 @@ guess within
 \end_layout
 
 \begin_layout Standard
-Before an opposing roll, you may guess an ESP.
+Before an opposing roll, you may conduct ESP.
  If the roll is within the range of your predicted [ESP], you succeed.
 \end_layout
 
