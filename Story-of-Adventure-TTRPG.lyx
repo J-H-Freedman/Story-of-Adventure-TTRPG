@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass book
 \use_default_options true
 \begin_modules
 fixltx2e
@@ -82,6 +82,46 @@ minimalistic
 \begin_body
 
 \begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+author{J.H.
+ Freedman}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+title{Story of Adventure TTRPG}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+maketitle
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset toc
+LatexCommand tableofcontents
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
 filename "BasicMechanics.lyx"
@@ -95,6 +135,17 @@ filename "BasicMechanics.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "CharacterCreation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset index_print
+LatexCommand printindex
+type "idx"
+name "Index"
 
 \end_inset
 

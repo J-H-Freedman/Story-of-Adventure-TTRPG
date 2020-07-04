@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass book
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -29,6 +29,7 @@
 \bibtex_command default
 \index_command default
 \paperfontsize default
+\spacing single
 \use_hyperref false
 \papersize default
 \use_geometry false
@@ -44,6 +45,7 @@
 \use_package undertilde 1
 \cite_engine basic
 \cite_engine_type default
+\biblio_style plain
 \use_bibtopic false
 \use_indices false
 \paperorientation portrait
@@ -79,12 +81,61 @@
 Basic Mechanics
 \end_layout
 
+\begin_layout Chapter
+Challenges
+\end_layout
+
 \begin_layout Section
 Character vs Obsticle
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Obsticle Challenge
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+These are the most common kinds in TTRPGs.
+ They are non-combat related and can range from climbing a fence to painting
+ a fence to breaking a fence.
+ 
+\end_layout
+
+\begin_layout Standard
+These are 
+\emph on
+Obsticle Challenges
+\emph default
+ and are tied to your Attributes.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+For more information on Attributes, reffer to x.x.x
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
 Determined Threashold
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Determined Threashold
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -93,41 +144,101 @@ Character vs Character
 
 \begin_layout Subsection
 Damage
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Damage
 \end_layout
 
-\begin_layout Section
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Health and Energy
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
+Health
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
 Health
 \end_layout
 
-\begin_layout Subsubsection
-Perminanent Wounds
-\end_layout
+\end_inset
 
-\begin_layout Subsubsection
-Death
+
 \end_layout
 
 \begin_layout Subsection
-Energy
+Perminanent Wounds
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Perminant Wounds
 \end_layout
 
-\begin_layout Subsubsection
-Technique Resource
+\end_inset
+
+
 \end_layout
 
-\begin_layout Subsubsection
-Damage Diversion
+\begin_layout Subsection
+Death
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Death
 \end_layout
 
-\begin_layout Subsubsection
-Passing Out
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
+Energy
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Energy
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Technique Resource
+\end_layout
+
+\begin_layout Subsection
+Damage Diversion
+\end_layout
+
+\begin_layout Subsection
+Passing Out
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Passing Out
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
 Rounds, Turns, and Actions
 \end_layout
 
@@ -139,6 +250,16 @@ The structure of how events take place are usually unimportant but are still
 
 \begin_layout Enumerate
 Rounds
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Round
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -157,6 +278,16 @@ After every character has had their turn, a new Round begins
 \end_deeper
 \begin_layout Enumerate
 Turns
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Turn
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -175,6 +306,16 @@ Each character takes one Turn per Round
 \end_deeper
 \begin_layout Enumerate
 Actions
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Action
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_deeper
@@ -188,11 +329,31 @@ Each character gets two Actions per Turn
 
 \begin_deeper
 \begin_layout Itemize
-A Standard Action cannot be repeated multiple times per Turn
+A Standard Action
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Action!Standard
+\end_layout
+
+\end_inset
+
+ cannot be repeated multiple times per Turn
 \end_layout
 
 \begin_layout Itemize
-A Double-Action both Actions in one Turn
+A Double-Action
+\begin_inset Index idx
+status collapsed
+
+\begin_layout Plain Layout
+Action!Double-Action
+\end_layout
+
+\end_inset
+
+ both Actions in one Turn
 \end_layout
 
 \end_deeper
