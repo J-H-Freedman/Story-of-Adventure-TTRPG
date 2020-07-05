@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass book
 \use_default_options true
 \begin_modules
 fixltx2e
@@ -89,11 +89,11 @@ minimalistic
 Character Creation
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Backstory Page
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Starting Point
 \end_layout
 
@@ -139,15 +139,15 @@ What would cause you to cease your journey? This is not a perminant decision-
  just a starting point to work off of as the adventuer develops.
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Ability Page
 \end_layout
 
-\begin_layout Subsection*
+\begin_layout Section*
 Preface
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Buying Attributes
 \end_layout
 
@@ -158,7 +158,7 @@ You have 50 points to spend between your five stats.
  You will still make the neccessary rolls; you just won't get bonuses
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 BURST
 \end_layout
 
@@ -168,13 +168,13 @@ Once an attribute hits 100, it immediately BURSTs.
 \end_layout
 
 \begin_layout Itemize
-Gain a perminant upgrade
+Gain a perminant upgrade based on the affected attribute
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
 These upgrades are different based on which attribute has BURST.
- Please refer to the attribute in question within 4.1
+ Please refer to the attribute in question within x.x.x
 \end_layout
 
 \end_inset
@@ -188,7 +188,8 @@ Gain a technique tied to the Attribute
 status collapsed
 
 \begin_layout Plain Layout
-Tying techniques to attributes is further explained in 4.3.
+For more information on Tying Techniques to an Attribute, please refer to
+ x.x.x
 \end_layout
 
 \end_inset
@@ -206,7 +207,7 @@ Despite the Attribute reduction, I recommend BURSTing whenever possible.
  initial shock.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Notation
 \end_layout
 
@@ -216,7 +217,7 @@ d100 refers to two ten-sided dice
 status collapsed
 
 \begin_layout Plain Layout
-A one hundred sided die can be used but I recommend against it.
+A hundred-sided die can be used but I recommend against it.
 \end_layout
 
 \end_inset
@@ -259,11 +260,11 @@ XXX
  itself.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Attributes
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Knowledge [KNO]
 \end_layout
 
@@ -312,7 +313,7 @@ Upon a BURST, dump 100 points into your existing Skills however you please.
 status collapsed
 
 \begin_layout Plain Layout
-Skills and how to add points are eplained in 4.3
+Skills and how to add points are referenced in 4.3
 \end_layout
 
 \end_inset
@@ -320,7 +321,7 @@ Skills and how to add points are eplained in 4.3
 
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Power [POW]
 \end_layout
 
@@ -350,7 +351,7 @@ Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
 ).
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Endurance [END]
 \end_layout
 
@@ -431,7 +432,7 @@ storing
 spending.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Speed [SPD]
 \end_layout
 
@@ -473,7 +474,7 @@ Any time your action encompasses multiple smaller actions, you may roll
 Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Subsection*
 Foresight [ESP]
 \end_layout
 
@@ -501,35 +502,35 @@ Any time your character attempts to predict or react to external stimuli,
 Upon a BURST, pick an additional number to guess.
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Skills
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Techniques
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Awesome/Awful
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Development Page
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Physical Changes
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Posessions
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Persons of Interest
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Reason to Continue
 \end_layout
 

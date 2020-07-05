@@ -168,13 +168,13 @@ Once an attribute hits 100, it immediately BURSTs.
 \end_layout
 
 \begin_layout Itemize
-Gain a perminant upgrade
+Gain a perminant upgrade based on the affected attribute
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
 These upgrades are different based on which attribute has BURST.
- Please refer to the attribute in question within 4.1
+ Please refer to the attribute in question within x.x.x
 \end_layout
 
 \end_inset
@@ -188,7 +188,8 @@ Gain a technique tied to the Attribute
 status collapsed
 
 \begin_layout Plain Layout
-Tying techniques to attributes is further explained in 4.3.
+For more information on Tying Techniques to an Attribute, please refer to
+ x.x.x
 \end_layout
 
 \end_inset
@@ -216,7 +217,7 @@ d100 refers to two ten-sided dice
 status collapsed
 
 \begin_layout Plain Layout
-A one hundred sided die can be used but I recommend against it.
+A hundred-sided die can be used but I recommend against it.
 \end_layout
 
 \end_inset
@@ -312,7 +313,7 @@ Upon a BURST, dump 100 points into your existing Skills however you please.
 status collapsed
 
 \begin_layout Plain Layout
-Skills and how to add points are eplained in 4.3
+Skills and how to add points are referenced in 4.3
 \end_layout
 
 \end_inset
