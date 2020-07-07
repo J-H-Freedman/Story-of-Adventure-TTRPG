@@ -123,6 +123,16 @@ For this adventure, who do you hold dear to your heart? Who helped make
 
 \begin_layout Subsection
 Personal Treasure
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Personal Treasure
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -160,6 +170,16 @@ You have 50 points to spend between your five stats.
 
 \begin_layout Subsection*
 BURST
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+BURST
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -212,7 +232,17 @@ Notation
 \end_layout
 
 \begin_layout Itemize
-d100 refers to two ten-sided dice
+d100
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+d100
+\end_layout
+
+\end_inset
+
+ refers to two ten-sided dice
 \begin_inset Foot
 status collapsed
 
@@ -265,7 +295,17 @@ Attributes
 \end_layout
 
 \begin_layout Subsection*
-Knowledge [KNO]
+Knowledge [KNO
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!KNO
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -322,7 +362,17 @@ Skills and how to add points are referenced in 4.3
 \end_layout
 
 \begin_layout Subsection*
-Power [POW]
+Power [POW
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!POW
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -352,7 +402,17 @@ Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
 \end_layout
 
 \begin_layout Subsection*
-Endurance [END]
+Endurance [END
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!END
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -433,7 +493,17 @@ spending.
 \end_layout
 
 \begin_layout Subsection*
-Speed [SPD]
+Speed [SPD
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!SPD
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -475,7 +545,17 @@ Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
 \end_layout
 
 \begin_layout Subsection*
-Foresight [ESP]
+Foresight [ESP
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!ESP
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard

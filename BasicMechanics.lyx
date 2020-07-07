@@ -257,7 +257,7 @@ Degrees can also be used as a variable to be used in further calculations
  (i.e.
  damage
 \begin_inset Foot
-status open
+status collapsed
 
 \begin_layout Plain Layout
 for more information on Damage, refer to x.x.x
@@ -468,6 +468,16 @@ Technique Resource
 
 \begin_layout Subsection
 Damage Diversion
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Diversion
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
