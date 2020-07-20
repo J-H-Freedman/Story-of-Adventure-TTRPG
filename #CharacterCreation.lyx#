@@ -4,7 +4,7 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass book
 \use_default_options true
 \begin_modules
 fixltx2e
@@ -85,15 +85,15 @@ minimalistic
 
 \begin_body
 
-\begin_layout Part*
+\begin_layout Part
 Character Creation
 \end_layout
 
-\begin_layout Section
+\begin_layout Chapter
 Backstory Page
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Starting Point
 \end_layout
 
@@ -123,6 +123,16 @@ For this adventure, who do you hold dear to your heart? Who helped make
 
 \begin_layout Subsection
 Personal Treasure
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Personal Treasure
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -139,105 +149,48 @@ What would cause you to cease your journey? This is not a perminant decision-
  just a starting point to work off of as the adventuer develops.
 \end_layout
 
+\begin_layout Chapter
+Attributes
+\end_layout
+
 \begin_layout Section
-Basic Mechanics
-\end_layout
-
-\begin_layout Subsubsection*
-Determined Threasholds
-\end_layout
-
-\begin_layout Subsubsection*
-Rounds, Turns, and Actions
-\end_layout
-
-\begin_layout Standard
-The structure of how events take place are usually unimportant but are still
- expected to occur frequently.
- Hierchy is occurs as follows:
-\end_layout
-
-\begin_layout Enumerate
-Rounds
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These encapsulate 
-\emph on
-every
-\emph default
- character's Turn
-\end_layout
-
-\begin_layout Itemize
-After every character has had their turn, a new Round begins
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Turns
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These encapsulate 
-\emph on
-the selected
-\emph default
- character's Actions
-\end_layout
-
-\begin_layout Itemize
-Each character takes one Turn per Round
-\end_layout
-
-\end_deeper
-\begin_layout Enumerate
-Actions
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-These are when characters actually do things
-\end_layout
-
-\begin_layout Itemize
-Each character gets two Actions per Turn
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-A Standard Action cannot be repeated multiple times per Turn
-\end_layout
-
-\begin_layout Itemize
-A Double-Action both Actions in one Turn
-\end_layout
-
-\end_deeper
-\end_deeper
-\begin_layout Section
-Ability Page
-\end_layout
-
-\begin_layout Subsection*
-Preface
-\end_layout
-
-\begin_layout Subsubsection*
 Buying Attributes
 \end_layout
 
 \begin_layout Standard
-You have 50 points to spend between your five stats.
+You have 50 attrubute points (ap) to spend between your five stats.
  It is acceptable and expected to have stats of 0.
  No need to worry- that just means you are average in those areas.
  You will still make the neccessary rolls; you just won't get bonuses
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Standard
+Because you start with 50ap, your starting Health is 50 and your starting
+ Energy is 100
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+health and energy calculations, x.x.x
+\end_layout
+
+\end_inset
+
+ so be careful!
+\end_layout
+
+\begin_layout Section
 BURST
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+BURST
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -246,13 +199,12 @@ Once an attribute hits 100, it immediately BURSTs.
 \end_layout
 
 \begin_layout Itemize
-Gain a perminant upgrade
-\begin_inset Foot
+Gain a perminant upgrade based on the affected attribute
+\begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
 These upgrades are different based on which attribute has BURST.
- Please refer to the attribute in question within 2.1
 \end_layout
 
 \end_inset
@@ -266,7 +218,7 @@ Gain a technique tied to the Attribute
 status collapsed
 
 \begin_layout Plain Layout
-Tying techniques to attributes is further explained in 2.3.
+Attributes, x.x.x
 \end_layout
 
 \end_inset
@@ -284,23 +236,37 @@ Despite the Attribute reduction, I recommend BURSTing whenever possible.
  initial shock.
 \end_layout
 
-\begin_layout Subsubsection*
+\begin_layout Section
+Attrubute Meanings
+\end_layout
+
+\begin_layout Subsection*
 Notation
 \end_layout
 
 \begin_layout Itemize
-d100 refers to two ten-sided dice
-\begin_inset Foot
+d100
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+d100
+\end_layout
+
+\end_inset
+
+ refers to two ten-sided dice
+\begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
-A one hundred sided die can be used but I recommend against it.
+A hundred-sided die can be used but I recommend against it.
 \end_layout
 
 \end_inset
 
  rolled to create a number with a range of 100.
-\begin_inset Foot
+\begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
@@ -338,11 +304,17 @@ XXX
 \end_layout
 
 \begin_layout Subsection
-Attributes
+Knowledge [KNO
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!KNO
 \end_layout
 
-\begin_layout Subsubsection*
-Knowledge [KNO]
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -376,7 +348,7 @@ In addition, [KNO] is added to your Skill checks.
 status collapsed
 
 \begin_layout Plain Layout
-Skill checks are referenced in 2.3
+Skill checks, x.x.x
 \end_layout
 
 \end_inset
@@ -390,7 +362,7 @@ Upon a BURST, dump 100 points into your existing Skills however you please.
 status collapsed
 
 \begin_layout Plain Layout
-Skills and how to add points are eplained in 2.3
+skill points, x.x.x
 \end_layout
 
 \end_inset
@@ -398,8 +370,18 @@ Skills and how to add points are eplained in 2.3
 
 \end_layout
 
-\begin_layout Subsubsection*
-Power [POW]
+\begin_layout Subsection
+Power [POW
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!POW
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -428,8 +410,18 @@ Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
 ).
 \end_layout
 
-\begin_layout Subsubsection*
-Endurance [END]
+\begin_layout Subsection
+Endurance [END
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!END
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -452,7 +444,7 @@ stored
 when
 \emph default
  the determined threhsold is reached.
-\begin_inset Foot
+\begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
@@ -476,7 +468,7 @@ spent
 until
 \emph default
  the determined threshold is reached.
-\begin_inset Foot
+\begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
@@ -509,8 +501,18 @@ storing
 spending.
 \end_layout
 
-\begin_layout Subsubsection*
-Speed [SPD]
+\begin_layout Subsection
+Speed [SPD
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!SPD
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -526,7 +528,7 @@ total
 \begin_layout Standard
 Roll a d100 and add [SPD].
  If you succeed, create a Stack
-\begin_inset Foot
+\begin_inset Marginal
 status collapsed
 
 \begin_layout Plain Layout
@@ -551,8 +553,18 @@ Any time your action encompasses multiple smaller actions, you may roll
 Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
 \end_layout
 
-\begin_layout Subsubsection*
-Foresight [ESP]
+\begin_layout Subsection
+Foresight [ESP
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!ESP
+\end_layout
+
+\end_inset
+
+]
 \end_layout
 
 \begin_layout Standard
@@ -579,35 +591,225 @@ Any time your character attempts to predict or react to external stimuli,
 Upon a BURST, pick an additional number to guess.
 \end_layout
 
-\begin_layout Subsection
-Skills
+\begin_layout Chapter
+Abilities
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Abilities
 \end_layout
 
-\begin_layout Subsection
-Techniques
+\end_inset
+
+: Skills and Techniques
 \end_layout
 
-\begin_layout Subsection
-Awesome/Awful
+\begin_layout Standard
+Abitites
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+an ability may refer to either a skill or technique
+\end_layout
+
+\end_inset
+
+ (i.e.
+ Skills and Techniques) modify an attriute in some way.
+ This works by replacing 
+\begin_inset Formula $[XXX]$
+\end_inset
+
+ with 
+\begin_inset Formula $([XXX]+[skill/technique])$
+\end_inset
+
+ in XXXs' formula.
+ The easiest way to understand this is by looking at Skills...
 \end_layout
 
 \begin_layout Section
-Development Page
+Skills
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Skills
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Skills represent specific instances of getting a bonus to your KNO challenges.
+ It affects the formula thusly:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d100+([KNO]+[Skill])$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So if you have a [KNO] of 20 and a Knitting skill of 37; then a Knitting
+ Knitting challenge, you will add your d100 roll to 57 to calculate the
+ result.
+\end_layout
+
+\begin_layout Standard
+Skills are used to perform a variety of quick tasks and can flesh out your
+ character's past, present, and future.
+ Before using Techniques, make sure you understand Skills first.
+\end_layout
+
+\begin_layout Section
+Techniques
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Techniques
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Techniques represent specific uses of attribute based challenges.
+ These are typically used in character vs character challenges but may be
+ used in normal challenges as well.
+ 
+\end_layout
+
+\begin_layout Standard
+Simarly to 
+\emph on
+Skills
+\emph default
+, the calculations proceed normally but with 
+\begin_inset Formula $([technique]+[attribute])$
+\end_inset
+
+ in the place of 
+\begin_inset Formula $[attribute]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+AWESOME/AWFUL
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+AWFUL
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+AWESOME
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To make your campaign
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+campaigns, x.x.x
+\end_layout
+
+\end_inset
+
+ more interesting, I recommend utilizing AWESOME/AWEFUL (A/A) abilities.
+ This creates an additional ability with the value of +50 
+\emph on
+and
+\emph default
+ an additional ability with the value of -50
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+There may be situations in which your Skill or technique is a negative number.
+ This acts the same as when it is a positive number but you subtract instead
+ of add.
+ You are, afterall, adding a negative number
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This may seem like a free bonus, but I recommend the player and/or the GM
+ put the character in AWEFUL situations to make the game interesting.
+ When an AWEFUL ability is rolled, store 1 Cool token.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Cool, x.x.x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Character Development
+\end_layout
+
+\begin_layout Section
+Advancement
+\end_layout
+
+\begin_layout Standard
+At the end of a session, the GM
 \end_layout
 
 \begin_layout Subsection
+Attribute Advancement
+\end_layout
+
+\begin_layout Subsection
+Ability Advancement
+\end_layout
+
+\begin_layout Section
 Physical Changes
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Posessions
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Persons of Interest
 \end_layout
 
-\begin_layout Subsection
+\begin_layout Section
 Reason to Continue
 \end_layout
 

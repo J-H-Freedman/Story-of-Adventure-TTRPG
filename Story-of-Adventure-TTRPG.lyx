@@ -102,6 +102,16 @@ LatexCommand tableofcontents
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "WhatIsSoA.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "BasicMechanics.lyx"
 
 \end_inset
@@ -113,6 +123,16 @@ filename "BasicMechanics.lyx"
 \begin_inset CommandInset include
 LatexCommand include
 filename "CharacterCreation.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
+filename "AdvancedMechanics.lyx"
 
 \end_inset
 
