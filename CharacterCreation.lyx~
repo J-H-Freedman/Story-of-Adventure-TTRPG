@@ -806,11 +806,17 @@ A d10 is a ten sided die
 
 \end_inset
 
-
+.
+ The results are the amout of AP the attribute is increased by.
 \end_layout
 
 \begin_layout Subsection
 Ability Advancement
+\end_layout
+
+\begin_layout Standard
+When given the opportinity, you may choose to either advance an existing
+ ability or add a new one.
 \end_layout
 
 \begin_layout Section

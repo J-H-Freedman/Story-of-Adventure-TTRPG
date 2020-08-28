@@ -90,66 +90,6 @@ Character Creation
 \end_layout
 
 \begin_layout Chapter
-Backstory Page
-\end_layout
-
-\begin_layout Section
-Starting Point
-\end_layout
-
-\begin_layout Standard
-I recommend starting out by listing a core idea to build off of.
- I recommend starting with a profession and starting technique.
- If you have the talent, I would also recommend drawing your character.
-\end_layout
-
-\begin_layout Subsection
-Reason to Start
-\end_layout
-
-\begin_layout Standard
-Why is your character going on an adventure? Was there a tragic event? Do
- you have nowhere else do go? What is it that you seek?
-\end_layout
-
-\begin_layout Subsubsection*
-Person(s) of Influence
-\end_layout
-
-\begin_layout Standard
-For this adventure, who do you hold dear to your heart? Who helped make
- you the person you are today? How do you remember them?
-\end_layout
-
-\begin_layout Subsection
-Personal Treasure
-\begin_inset Index idx
-status open
-
-\begin_layout Plain Layout
-Personal Treasure
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-What is the one thing you cherish more than anything? Why do you cherish
- it? What would you do if your enemy destroyed it?
-\end_layout
-
-\begin_layout Subsection
-Initial Condition to Finish
-\end_layout
-
-\begin_layout Standard
-What would cause you to cease your journey? This is not a perminant decision-
- just a starting point to work off of as the adventuer develops.
-\end_layout
-
-\begin_layout Chapter
 Attributes
 \end_layout
 
@@ -820,19 +760,26 @@ When given the opportinity, you may choose to either advance an existing
 \end_layout
 
 \begin_layout Section
-Physical Changes
+Injuries & Enhancements
+\end_layout
+
+\begin_layout Standard
+You will experience physical, mental, and spiritual changes on your journey.
+ I recommend keeping track of these over the campaign
 \end_layout
 
 \begin_layout Section
 Posessions
 \end_layout
 
-\begin_layout Section
-Persons of Interest
+\begin_layout Standard
+You will acquire a lot of artifacts, equipment, and trinkets over your journey.
+ (author's note: right now it's all one area.
+ I'm considering segmenting based on playtesting)
 \end_layout
 
 \begin_layout Section
-Reason to Continue
+Persons, Places, & Things of Interest
 \end_layout
 
 \end_body
