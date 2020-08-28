@@ -1,0 +1,786 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass book
+\use_default_options true
+\begin_modules
+fixltx2e
+minimalistic
+\end_modules
+\maintain_unincluded_children false
+\language english
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing onehalf
+\use_hyperref false
+\papersize letterpaper
+\use_geometry true
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\leftmargin 1.5in
+\topmargin 1.5in
+\rightmargin 1.5in
+\bottommargin 1.5in
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style english
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Part
+Character Creation
+\end_layout
+
+\begin_layout Chapter
+Attributes
+\end_layout
+
+\begin_layout Section
+Buying Attributes
+\end_layout
+
+\begin_layout Standard
+You have 50 attrubute points (ap) to spend between your five stats.
+ It is acceptable and expected to have stats of 0.
+ No need to worry- that just means you are average in those areas.
+ You will still make the neccessary rolls; you just won't get bonuses
+\end_layout
+
+\begin_layout Standard
+Because you start with 50ap, your starting Health is 50 and your starting
+ Energy is 100
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+health and energy calculations, x.x.x
+\end_layout
+
+\end_inset
+
+ so be careful!
+\end_layout
+
+\begin_layout Section
+BURST
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+BURST
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Once an attribute hits 100, it immediately BURSTs.
+ This does a few things:
+\end_layout
+
+\begin_layout Itemize
+Gain a perminant upgrade based on the affected attribute
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+These upgrades are different based on which attribute has BURST.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Gain a technique tied to the Attribute
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Attributes, x.x.x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+Reduce the attribute to 10
+\end_layout
+
+\begin_layout Standard
+Despite the Attribute reduction, I recommend BURSTing whenever possible.
+ However, I also recommend having backup Attributes to compensate for the
+ initial shock.
+\end_layout
+
+\begin_layout Section
+Attrubute Meanings
+\end_layout
+
+\begin_layout Subsection*
+Notation
+\end_layout
+
+\begin_layout Itemize
+d100
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+d100
+\end_layout
+
+\end_inset
+
+ refers to two ten-sided dice
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+A hundred-sided die can be used but I recommend against it.
+\end_layout
+
+\end_inset
+
+ rolled to create a number with a range of 100.
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Alternatively, this roll can be done digitally to choose a random number
+ within range of 100.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Itemize
+XXX refers to the attribute 
+\begin_inset Quotes eld
+\end_inset
+
+XXX
+\begin_inset Quotes erd
+\end_inset
+
+ and everything that entails.
+\end_layout
+
+\begin_layout Itemize
+[XXX] refers to the variable 
+\begin_inset Quotes eld
+\end_inset
+
+XXX
+\begin_inset Quotes erd
+\end_inset
+
+ itself.
+\end_layout
+
+\begin_layout Subsection
+Knowledge [KNO
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!KNO
+\end_layout
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Formula $d100+[KNO]$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Roll a d100 and add [KNO] to the amount.
+\end_layout
+
+\begin_layout Standard
+Any time you would ask, 
+\begin_inset Quotes eld
+\end_inset
+
+Does my character know/notice...
+\begin_inset Quotes erd
+\end_inset
+
+ you may roll a KNO.
+\end_layout
+
+\begin_layout Standard
+In addition, [KNO] is added to your Skill checks.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Skill checks, x.x.x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, dump 100 points into your existing Skills however you please.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+skill points, x.x.x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Subsection
+Power [POW
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!POW
+\end_layout
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Formula $2(d100+[POW])$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Roll a 2d100 and add [POW] to each result
+\end_layout
+
+\begin_layout Standard
+A POW may be utilized for most Double-Actions
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
+ 
+\begin_inset Formula $2\rightarrow3$
+\end_inset
+
+).
+\end_layout
+
+\begin_layout Subsection
+Endurance [END
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!END
+\end_layout
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Formula $(d100\pm[END])\divideontimes1$
+\end_inset
+
+ turn until pass/fail
+\end_layout
+
+\begin_layout Standard
+If the endurance is being 
+\emph on
+stored
+\emph default
+ for the next turn(s), roll a d100 and add [END].
+ The desired effect occurs 
+\emph on
+when
+\emph default
+ the determined threhsold is reached.
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Storing your endurance produces positive effects in later turns.
+ You want to boost this number as high as you can as quicklly as you can.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+If the endurance is being 
+\emph on
+spent
+\emph default
+ from the previous turn(s), roll a d100 and subtract [END].
+ The desired effect occurs 
+\emph on
+until
+\emph default
+ the determined threshold is reached.
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+Spending your endurnance prevents undesirable effects from happening.
+ You want to keep the spent number low for as long as possible.
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Any time your action would take multiple turns, you may run an END.
+ Depending on context, an END may either be a basic action or a double-action.
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, perminantly increase the 
+\emph on
+turn 
+\emph default
+multiplier by 1.
+ This means you roll an additional action for 
+\emph on
+storing
+\emph default
+ and skip an additional action for 
+\emph on
+spending.
+\end_layout
+
+\begin_layout Subsection
+Speed [SPD
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!SPD
+\end_layout
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+total 
+\begin_inset Formula $(d100+[SPD])$
+\end_inset
+
+ until fail
+\end_layout
+
+\begin_layout Standard
+Roll a d100 and add [SPD].
+ If you succeed, create a Stack
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+A Stack is a list of numbers to add together
+\end_layout
+
+\end_inset
+
+ and add the total.
+ Roll agian with +10 to the threashold.
+ If you succeed again, add the total to the stack.
+ Repeat the process until you reach the determined maximum successes (if
+ applicable) or when you fail.
+\end_layout
+
+\begin_layout Standard
+Any time your action encompasses multiple smaller actions, you may roll
+ a SPD.
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
+\end_layout
+
+\begin_layout Subsection
+Foresight [ESP
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Attribute!ESP
+\end_layout
+
+\end_inset
+
+]
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+guess within 
+\begin_inset Formula $\pm[ESP]$
+\end_inset
+
+ against the opposing roll
+\end_layout
+
+\begin_layout Standard
+Before an opposing roll, you may conduct ESP.
+ If the roll is within the range of your predicted [ESP], you succeed.
+\end_layout
+
+\begin_layout Standard
+Any time your character attempts to predict or react to external stimuli,
+ roll ESP.
+\end_layout
+
+\begin_layout Standard
+Upon a BURST, pick an additional number to guess.
+\end_layout
+
+\begin_layout Chapter
+Abilities
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Abilities
+\end_layout
+
+\end_inset
+
+: Skills and Techniques
+\end_layout
+
+\begin_layout Standard
+Abitites
+\begin_inset Marginal
+status open
+
+\begin_layout Plain Layout
+an ability may refer to either a skill or technique
+\end_layout
+
+\end_inset
+
+ (i.e.
+ Skills and Techniques) modify an attriute in some way.
+ This works by replacing 
+\begin_inset Formula $[XXX]$
+\end_inset
+
+ with 
+\begin_inset Formula $([XXX]+[skill/technique])$
+\end_inset
+
+ in XXXs' formula.
+ The easiest way to understand this is by looking at Skills...
+\end_layout
+
+\begin_layout Section
+Skills
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Skills
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Skills represent specific instances of getting a bonus to your KNO challenges.
+ It affects the formula thusly:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Formula $d100+([KNO]+[Skill])$
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+So if you have a [KNO] of 20 and a Knitting skill of 37; then a Knitting
+ Knitting challenge, you will add your d100 roll to 57 to calculate the
+ result.
+\end_layout
+
+\begin_layout Standard
+Skills are used to perform a variety of quick tasks and can flesh out your
+ character's past, present, and future.
+ Before using Techniques, make sure you understand Skills first.
+\end_layout
+
+\begin_layout Section
+Techniques
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+Techniques
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Techniques represent specific uses of attribute based challenges.
+ These are typically used in character vs character challenges but may be
+ used in normal challenges as well.
+ 
+\end_layout
+
+\begin_layout Standard
+Simarly to 
+\emph on
+Skills
+\emph default
+, the calculations proceed normally but with 
+\begin_inset Formula $([technique]+[attribute])$
+\end_inset
+
+ in the place of 
+\begin_inset Formula $[attribute]$
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Section
+AWESOME/AWFUL
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+AWFUL
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset Index idx
+status open
+
+\begin_layout Plain Layout
+AWESOME
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To make your campaign
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+campaigns, x.x.x
+\end_layout
+
+\end_inset
+
+ more interesting, I recommend utilizing AWESOME/AWEFUL (A/A) abilities.
+ This creates an additional ability with the value of +50 
+\emph on
+and
+\emph default
+ an additional ability with the value of -50
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+There may be situations in which your Skill or technique is a negative number.
+ This acts the same as when it is a positive number but you subtract instead
+ of add.
+ You are, afterall, adding a negative number
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+This may seem like a free bonus, but I recommend the player and/or the GM
+ put the character in AWEFUL situations to make the game interesting.
+ When an AWEFUL ability is rolled, store 1 Cool token.
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+Cool, x.x.x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Chapter
+Character Development
+\end_layout
+
+\begin_layout Section
+Advancement
+\end_layout
+
+\begin_layout Standard
+At the end of a session, the GM may give players the opportunity to advance
+ one attribute and/or ability
+\end_layout
+
+\begin_layout Subsection
+Attribute Advancement
+\end_layout
+
+\begin_layout Standard
+When given the opportunity, you pick an attribute you used during this session.
+ To advance it, roll a d10
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+A d10 is a ten sided die
+\end_layout
+
+\end_inset
+
+.
+ The results are the amout of AP the attribute is increased by.
+\end_layout
+
+\begin_layout Subsection
+Ability Advancement
+\end_layout
+
+\begin_layout Standard
+When given the opportinity, you may choose to either advance an existing
+ ability or add a new one.
+\end_layout
+
+\begin_layout Section
+Injuries & Enhancements
+\end_layout
+
+\begin_layout Standard
+You will experience physical, mental, and spiritual changes on your journey.
+ I recommend keeping track of these over the campaign
+\end_layout
+
+\begin_layout Section
+Posessions
+\end_layout
+
+\begin_layout Standard
+You will acquire a lot of artifacts, equipment, and trinkets over your journey.
+ (author's note: right now it's all one area.
+ I'm considering segmenting based on playtesting)
+\end_layout
+
+\begin_layout Section
+Persons, Places, & Things of Interest
+\end_layout
+
+\end_body
+\end_document
