@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass book
+\begin_preamble
+\input{doc_common.tex}
+\end_preamble
 \use_default_options true
 \begin_modules
 fixltx2e
@@ -90,37 +93,164 @@ Character Creation
 \end_layout
 
 \begin_layout Chapter
-Attributes
+Character Attributes
 \end_layout
 
 \begin_layout Section
-Buying Attributes
-\end_layout
-
-\begin_layout Standard
-You have 50 attrubute points (ap) to spend between your five stats.
- It is acceptable and expected to have stats of 0.
- No need to worry- that just means you are average in those areas.
- You will still make the neccessary rolls; you just won't get bonuses
-\end_layout
-
-\begin_layout Standard
-Because you start with 50ap, your starting Health is 50 and your starting
- Energy is 100
-\begin_inset Foot
-status collapsed
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-health and energy calculations, x.x.x
+
+
+\backslash
+attribute
+\backslash
+ Points
 \end_layout
 
 \end_inset
 
- so be careful!
+
+\end_layout
+
+\begin_layout Standard
+Your character's actions and abilities are built around 5 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ categories: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWEful, 
+\backslash
+KNOWful, 
+\backslash
+ENDUful, 
+\backslash
+SPEDful, and 
+\backslash
+FOREful.
+\end_layout
+
+\end_inset
+
+Throughout your campaign(s) you'll be able to build in these areas by spending
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ points (
+\backslash
+attrval).
+\end_layout
+
+\end_inset
+
+ Each 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ gives a purely bonus-based benefit, which means that it's fine, and expected,
+ for your character to have 0's in some of their 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ categories.
+ Thematically a 0 just means that your character is average in that area;
+ you will still be able to make all of your necessary rolls– you just won't
+ get any bonuses! 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{When making a new character you start with 50
+\backslash
+attrval
+\backslash
+ to spend between each 
+\backslash
+attribute .
+ However! This means your starting 
+\backslash
+HPful
+\backslash
+ is 50 and your starting 
+\backslash
+ENful
+\backslash
+ is 100 so be careful!}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
 BURST
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -134,50 +264,170 @@ BURST
 \end_layout
 
 \begin_layout Standard
-Once an attribute hits 100, it immediately BURSTs.
- This does a few things:
-\end_layout
-
-\begin_layout Itemize
-Gain a perminant upgrade based on the affected attribute
-\begin_inset Marginal
-status collapsed
+When an 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-These upgrades are different based on which attribute has BURST.
+
+
+\backslash
+attribute
+\backslash
+ 
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Itemize
-Gain a technique tied to the Attribute
-\begin_inset Foot
-status collapsed
+ reaches 
+\series bold
+100
+\series default
+, it triggers a 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-Attributes, x.x.x
+
+
+\backslash
+BURST
+\backslash
+ 
 \end_layout
 
 \end_inset
 
-
+! This does a few things:
 \end_layout
 
 \begin_layout Itemize
-Reduce the attribute to 10
+Grants a permanent upgrade specific to the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ that triggered the 
+\backslash
+BURST
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Grants a new 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+techn
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ tied to the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\end_layout
+
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Itemize
+Reduces the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ back down to 
+\series bold
+10
+\series default
+.
 \end_layout
 
 \begin_layout Standard
-Despite the Attribute reduction, I recommend BURSTing whenever possible.
- However, I also recommend having backup Attributes to compensate for the
- initial shock.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{Despite the 
+\backslash
+attribute
+\backslash
+ reduction, the upgrades from a 
+\backslash
+BURST
+\backslash
+ are substantial and I recommend triggering a 
+\backslash
+BURST
+\backslash
+ whenever possible.
+ However! Moderation is important.
+ Triggering too many at once could leave you in a tight spot so I also recommend
+ keeping a few 
+\backslash
+attribute
+\backslash
+ scores high until the others have recovered.}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Attrubute Meanings
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+Usage
 \end_layout
 
 \begin_layout Subsection*
@@ -195,28 +445,10 @@ d100
 
 \end_inset
 
- refers to two ten-sided dice
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-A hundred-sided die can be used but I recommend against it.
-\end_layout
-
-\end_inset
-
- rolled to create a number with a range of 100.
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-Alternatively, this roll can be done digitally to choose a random number
- within range of 100.
-\end_layout
-
-\end_inset
-
-
+ refers to a number from 1 – 100.
+ This can be from either two ten-sided dice rolled to create a number with
+ a range of 100, a random number generator, or however you decide to generate
+ it.
 \end_layout
 
 \begin_layout Itemize
@@ -244,7 +476,34 @@ XXX
 \end_layout
 
 \begin_layout Subsection
-Knowledge [KNO
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOWful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOW
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -260,17 +519,57 @@ Attribute!KNO
 \begin_layout Standard
 
 \emph on
-\begin_inset Formula $d100+[KNO]$
+\begin_inset Formula $d100+[\KNOW]$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Roll a d100 and add [KNO] to the amount.
+\noindent
+For 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOWful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ checks you want your total to be 
+\shape italic
+above
+\shape default
+ a target amount.
 \end_layout
 
 \begin_layout Standard
+\noindent
+Roll a d100 and add [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOW
+\end_layout
+
+\end_inset
+
+] to the amount.
+ If it's above the target then you pass, and if not then you fail.
+\end_layout
+
+\begin_layout Standard
+\noindent
 Any time you would ask, 
 \begin_inset Quotes eld
 \end_inset
@@ -279,11 +578,53 @@ Does my character know/notice...
 \begin_inset Quotes erd
 \end_inset
 
- you may roll a KNO.
+ you may roll a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOW
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-In addition, [KNO] is added to your Skill checks.
+\noindent
+In addition, [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOW
+\end_layout
+
+\end_inset
+
+] is added to your 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ checks.
 \begin_inset Foot
 status collapsed
 
@@ -297,7 +638,51 @@ Skill checks, x.x.x
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, dump 100 points into your existing Skills however you please.
+\noindent
+Upon a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BURST
+\end_layout
+
+\end_inset
+
+, allocate 100 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ points into your existing 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+(s) however you please.
 \begin_inset Foot
 status collapsed
 
@@ -311,7 +696,34 @@ skill points, x.x.x
 \end_layout
 
 \begin_layout Subsection
-Power [POW
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWEful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWE
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -327,22 +739,105 @@ Attribute!POW
 \begin_layout Standard
 
 \emph on
-\begin_inset Formula $2(d100+[POW])$
+\begin_inset Formula $d100_{1}+d100_{2}+2([\POWE])$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-Roll a 2d100 and add [POW] to each result
+\noindent
+For 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWEful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ checks you want to try to roll the 
+\shape italic
+biggest
+\shape default
+, and we mean BIGGEST, total possible.
 \end_layout
 
 \begin_layout Standard
-A POW may be utilized for most Double-Actions
+\noindent
+Roll 2 d100s and add [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWE
+\end_layout
+
+\end_inset
+
+] to each result
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
+\noindent
+A 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWE
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ may be utilized for most Double-Actions
+\end_layout
+
+\begin_layout Standard
+\noindent
+Upon a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BURST
+\end_layout
+
+\end_inset
+
+, permanently increase the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+POWE
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+multiplier by 1 (e.g.
  
 \begin_inset Formula $2\rightarrow3$
 \end_inset
@@ -351,7 +846,34 @@ Upon a BURST, perminantly increase the POW multiplier by 1 (e.g.
 \end_layout
 
 \begin_layout Subsection
-Endurance [END
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDUful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDU
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -367,67 +889,177 @@ Attribute!END
 \begin_layout Standard
 
 \emph on
-\begin_inset Formula $(d100\pm[END])\divideontimes1$
+\begin_inset Formula $(d100\pm[\ENDU])\divideontimes$
 \end_inset
 
- turn until pass/fail
+ turns until pass or fail
 \end_layout
 
 \begin_layout Standard
-If the endurance is being 
+\noindent
+For 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDUful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ checks your rolls add to a running total proceeding towards specific
+\shape italic
+ thresholds
+\shape default
+.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Every turn of an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDU
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ check begins with a d100 roll, but it proceeds differently depending on
+ if you're 
+\shape italic
+storing
+\shape default
+ or 
+\shape italic
+spending
+\shape default
+ an amount:
+\end_layout
+
+\begin_layout Itemize
+\noindent
+If the amount is being 
 \emph on
 stored
 \emph default
- for the next turn(s), roll a d100 and add [END].
+ to your total for the next turn(s), add [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENDU
+\end_layout
+
+\end_inset
+
+] to the roll and the result to the total.
  The desired effect occurs 
 \emph on
 when
 \emph default
- the determined threhsold is reached.
-\begin_inset Marginal
-status collapsed
+ the 
+\shape italic
+storing
+\shape default
+ threhsold is reached.
+\end_layout
+
+\begin_layout Itemize
+\noindent
+If the amount is being 
+\emph on
+spent
+\emph default
+ from your total from the previous turn(s), subtract [
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-Storing your endurance produces positive effects in later turns.
- You want to boost this number as high as you can as quicklly as you can.
+
+
+\backslash
+ENDU
 \end_layout
 
 \end_inset
 
-
-\end_layout
-
-\begin_layout Standard
-If the endurance is being 
-\emph on
-spent
-\emph default
- from the previous turn(s), roll a d100 and subtract [END].
+] from the roll and the result from the total.
  The desired effect occurs 
 \emph on
 until
 \emph default
- the determined threshold is reached.
-\begin_inset Marginal
-status collapsed
+ the 
+\shape italic
+spending
+\shape default
+ threshold is reached.
+\end_layout
+
+\begin_layout Standard
+\noindent
+Any time your action would take multiple turns, you may run an 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-Spending your endurnance prevents undesirable effects from happening.
- You want to keep the spent number low for as long as possible.
+
+
+\backslash
+ENDU
 \end_layout
 
 \end_inset
 
+.
+ Depending on context, an 
+\begin_inset ERT
+status open
 
+\begin_layout Plain Layout
+
+
+\backslash
+ENDU
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ may either be a basic action or a double-action.
 \end_layout
 
 \begin_layout Standard
-Any time your action would take multiple turns, you may run an END.
- Depending on context, an END may either be a basic action or a double-action.
+\noindent
+Upon a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BURST
 \end_layout
 
-\begin_layout Standard
-Upon a BURST, perminantly increase the 
+\end_inset
+
+, permanently increase the 
 \emph on
 turn 
 \emph default
@@ -441,8 +1073,64 @@ storing
 spending.
 \end_layout
 
+\begin_layout Standard
+\noindent
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{Generally speaking, storing to your total will produce positive
+ effects in later turns so you'll want to 
+\end_layout
+
+\begin_layout Plain Layout
+
+try to build this as quickly as possible.
+ Spending from your total will also block undesirable effects 
+\end_layout
+
+\begin_layout Plain Layout
+
+so you'll want to keep this as low as possible.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
 \begin_layout Subsection
-Speed [SPD
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+SPEDful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+SPED
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -459,42 +1147,146 @@ Attribute!SPD
 
 \emph on
 total 
-\begin_inset Formula $(d100+[SPD])$
+\begin_inset Formula $(d100+[\SPED])$
 \end_inset
 
- until fail
+ until pass or fail
 \end_layout
 
 \begin_layout Standard
-Roll a d100 and add [SPD].
- If you succeed, create a Stack
-\begin_inset Marginal
-status collapsed
+\noindent
+For 
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-A Stack is a list of numbers to add together
+
+
+\backslash
+SPEDful
+\backslash
+ 
 \end_layout
 
 \end_inset
 
- and add the total.
- Roll agian with +10 to the threashold.
- If you succeed again, add the total to the stack.
- Repeat the process until you reach the determined maximum successes (if
- applicable) or when you fail.
+ checks you'll roll for successes against an ever-building threshold until
+ you reach the target 
+\shape italic
+number of successes
+\shape default
+ or you 
+\shape italic
+fail
+\shape default
+.
 \end_layout
 
 \begin_layout Standard
+\noindent
+Roll a d100 and add [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+SPED
+\end_layout
+
+\end_inset
+
+].
+ If the result is above the target then you succeed.
+ If you succeed, start a running total with the result, add 10 to the target
+ threshold, and repeat the process until either condition is met.
+ With every subsequent success you'll add the result to the running total
+ and add 10 to the threshold.
+ 
+\end_layout
+
+\begin_layout Standard
+\noindent
 Any time your action encompasses multiple smaller actions, you may roll
- a SPD.
+ a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+SPED
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, preminantly gain an addtional free reroll upon SPD failures.
+\noindent
+Upon a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BURST
+\end_layout
+
+\end_inset
+
+, permanently gain an addtional free reroll upon 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+SPED
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ failures.
 \end_layout
 
 \begin_layout Subsection
-Foresight [ESP
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FOREful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FORE
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -511,24 +1303,99 @@ Attribute!ESP
 
 \emph on
 guess within 
-\begin_inset Formula $\pm[ESP]$
+\begin_inset Formula $\pm[\FORE]$
 \end_inset
 
  against the opposing roll
 \end_layout
 
 \begin_layout Standard
-Before an opposing roll, you may conduct ESP.
- If the roll is within the range of your predicted [ESP], you succeed.
+\noindent
+For 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FOREful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ checks you want your roll to land within a specific range.
 \end_layout
 
 \begin_layout Standard
+\noindent
+Before an opposing roll, you may conduct 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FORE
+\end_layout
+
+\end_inset
+
+.
+ If the roll is within the range of your predicted [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FORE
+\end_layout
+
+\end_inset
+
+], you succeed.
+\end_layout
+
+\begin_layout Standard
+\noindent
 Any time your character attempts to predict or react to external stimuli,
- roll ESP.
+ roll 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FORE
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
-Upon a BURST, pick an additional number to guess.
+\noindent
+Upon a 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+BURST
+\end_layout
+
+\end_inset
+
+, pick an additional number to guess.
 \end_layout
 
 \begin_layout Chapter
@@ -542,36 +1409,93 @@ Abilities
 
 \end_inset
 
-: Skills and Techniques
-\end_layout
-
-\begin_layout Standard
-Abitites
-\begin_inset Marginal
+: 
+\begin_inset ERT
 status open
 
 \begin_layout Plain Layout
-an ability may refer to either a skill or technique
+
+
+\backslash
+skills 
 \end_layout
 
 \end_inset
 
- (i.e.
- Skills and Techniques) modify an attriute in some way.
- This works by replacing 
+s and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+techn s
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Abitites are extra modifiers for your 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute 
+\end_layout
+
+\end_inset
+
+s during various game situations.
+ Generally they work by replacing 
 \begin_inset Formula $[XXX]$
 \end_inset
 
  with 
-\begin_inset Formula $([XXX]+[skill/technique])$
+\begin_inset Formula $([XXX]+[Ability])$
 \end_inset
 
  in XXXs' formula.
- The easiest way to understand this is by looking at Skills...
+ There are 3 categories for abilities: 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills s, 
+\backslash
+techn s, and 
+\backslash
+AWEAWF.
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Skills
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills 
+\end_layout
+
+\end_inset
+
+s
 \begin_inset Index idx
 status open
 
@@ -585,31 +1509,142 @@ Skills
 \end_layout
 
 \begin_layout Standard
-Skills represent specific instances of getting a bonus to your KNO challenges.
- It affects the formula thusly:
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills 
+\end_layout
+
+\end_inset
+
+s represent your general knowledge of things, and provide bonus(es) specifically
+ to your 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOW 
+\end_layout
+
+\end_inset
+
+ challenges.
+ Their bonus is directly equal to the amount of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills 
+\end_layout
+
+\end_inset
+
+Points (
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skillval 
+\end_layout
+
+\end_inset
+
+) allocated to them.
+ They affect the formula thusly:
 \end_layout
 
 \begin_layout Standard
-\begin_inset Formula $d100+([KNO]+[Skill])$
+\begin_inset Formula $d100+([\KNOW]+[\skills])$
 \end_inset
 
 
 \end_layout
 
 \begin_layout Standard
-So if you have a [KNO] of 20 and a Knitting skill of 37; then a Knitting
- Knitting challenge, you will add your d100 roll to 57 to calculate the
- result.
+So if you have a [
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+KNOW
+\end_layout
+
+\end_inset
+
+] of 20 and a Knitting 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills 
+\end_layout
+
+\end_inset
+
+ of 37; then in a Knitting challenge, you will add your d100 roll to 
+\series bold
+57 
+\series default
+instead of 20 to calculate the result.
 \end_layout
 
 \begin_layout Standard
-Skills are used to perform a variety of quick tasks and can flesh out your
- character's past, present, and future.
- Before using Techniques, make sure you understand Skills first.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{
+\backslash
+skills s are used to perform a variety of quick tasks and can flesh out
+ your character's past, present, and future.
+ Before using 
+\backslash
+techn s, make sure you understand 
+\backslash
+skills s first.}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-Techniques
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+techn 
+\end_layout
+
+\end_inset
+
+s
 \begin_inset Index idx
 status open
 
@@ -623,18 +1658,107 @@ Techniques
 \end_layout
 
 \begin_layout Standard
-Techniques represent specific uses of attribute based challenges.
- These are typically used in character vs character challenges but may be
- used in normal challenges as well.
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+techn 
+\end_layout
+
+\end_inset
+
+s are advanced maneuvers representing specific uses of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\end_layout
+
+\end_inset
+
+s during challenges.
+ Unlike 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills 
+\end_layout
+
+\end_inset
+
+s these are not automatic boosts and cost 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+to use; starting at 10 and increasing by 5 per 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+advancement
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+(
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+advanmini
+\end_layout
+
+\end_inset
+
+).
  
 \end_layout
 
 \begin_layout Standard
-Simarly to 
-\emph on
-Skills
-\emph default
-, the calculations proceed normally but with 
+Initially the calculations will proceed much like 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+skills 
+\end_layout
+
+\end_inset
+
+s with the formula changing to 
 \begin_inset Formula $([technique]+[attribute])$
 \end_inset
 
@@ -642,11 +1766,57 @@ Skills
 \begin_inset Formula $[attribute]$
 \end_inset
 
-.
+, however as they are upgraded with 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+advanmini
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+they can receive new effects.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{Typically 
+\backslash
+techn s will be used in character vs character challenges, but they can
+ be used wherever applicable-- even in normal challenges!}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
-AWESOME/AWFUL
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AWEAWF
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status open
 
@@ -680,7 +1850,20 @@ campaigns, x.x.x
 
 \end_inset
 
- more interesting, I recommend utilizing AWESOME/AWEFUL (A/A) abilities.
+ more interesting, I recommend using 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+AWEAWF
+\end_layout
+
+\end_inset
+
+ (A/A) abilities.
  This creates an additional ability with the value of +50 
 \emph on
 and
@@ -727,7 +1910,20 @@ Advancement
 
 \begin_layout Standard
 At the end of a session, the GM may give players the opportunity to advance
- one attribute and/or ability
+ one 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\end_layout
+
+\end_inset
+
+ and/or ability
 \end_layout
 
 \begin_layout Subsection
@@ -755,7 +1951,7 @@ Ability Advancement
 \end_layout
 
 \begin_layout Standard
-When given the opportinity, you may choose to either advance an existing
+When given the opportunity, you may choose to either advance an existing
  ability or add a new one.
 \end_layout
 
@@ -769,7 +1965,7 @@ You will experience physical, mental, and spiritual changes on your journey.
 \end_layout
 
 \begin_layout Section
-Posessions
+Possessions
 \end_layout
 
 \begin_layout Standard

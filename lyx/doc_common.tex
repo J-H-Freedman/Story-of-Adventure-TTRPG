@@ -1,0 +1,72 @@
+% Packages ------------------
+\usepackage{titling}
+\usepackage{float} % For figure positioning
+\usepackage{ragged2e}
+\usepackage{hyperref}
+% Defs ----------------------
+%% Meta Info
+\def\gametitle{Story of Adventure}
+\def\gametitlemini{S.O.A.}
+\def\gamesubtitle{A Table-Top Role-Playing Game}
+
+%% Stats
+\def\HP{HP}
+\def\HPful{Health}
+\def\EN{EN}
+\def\ENful{Energy}
+\def\KNOW{KNO}
+\def\KNOWful{Knowledge}
+\def\POWE{POW}
+\def\POWEful{Power}
+\def\FORE{ESP}
+\def\FOREful{Foresight}
+\def\SPED{SPD}
+\def\SPEDful{Speed}
+\def\ENDU{END}
+\def\ENDUful{Endurance}
+\def\BURST{BURST}
+\def\BURSTmini{B!}
+\def\skills{{\slshape Skill}}
+\def\skillval{SP}
+\def\techn{{\slshape Technique}}
+\def\attribute{{\slshape Attribute}}
+\def\attrval{AP}
+\def\advancement{Advancement}
+\def\advanmini{Adv}
+\def\AWE{AWESOME}
+\def\AWF{AWFUL}
+\def\AWEAWF{\AWE /\AWF}
+
+%% Formatting
+%%% newplayr 1: Text
+%%% Sets up a figure box for callouts for new players
+\def\newplayr#1{%
+	\begin{figure}[H]{%
+			\makebox[3em]{\dotfill}\ {\large New Players!}\ \dotfill\vspace{-1em}\linebreak
+			\begin{flushleft}
+				#1\vspace{-1em}\linebreak
+			\end{flushleft}
+			\strut\dotfill
+			}
+	\end{figure}
+	}
+
+\def\notetoGM#1{%
+	\begin{figure}[H]{%
+			\makebox[3em]{\hrulefill}\ {\large A Note to the GM}\ \hrulefill\vspace{-2em}\linebreak
+			\begin{flushleft}
+				#1\vspace{-2em}\linebreak
+			\end{flushleft}
+			\strut\hrulefill
+			}
+	\end{figure}
+	}
+	
+%% Mechanics
+
+
+% Metainfo ------------------
+\hypersetup{
+	colorlinks=true,
+	linkcolor=black 
+}

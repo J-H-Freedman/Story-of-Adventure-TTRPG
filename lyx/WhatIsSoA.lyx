@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass book
+\begin_preamble
+\input{doc_common.tex}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -78,13 +81,41 @@
 \begin_body
 
 \begin_layout Part
-What is Story of Adventure?
+What is 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+slshape
+\backslash
+gametitle}
+\end_layout
+
+\end_inset
+
+?
 \end_layout
 
 \begin_layout Chapter
 Introduction to 
-\emph on
-Story of Adventure
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+{
+\backslash
+slshape
+\backslash
+gametitle}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Chapter
@@ -166,7 +197,20 @@ One-Off
 \end_layout
 
 \begin_layout Chapter
-What makes Story of Advenutre Different?
+What makes 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gametitle
+\end_layout
+
+\end_inset
+
+ Different?
 \end_layout
 
 \begin_layout Section
