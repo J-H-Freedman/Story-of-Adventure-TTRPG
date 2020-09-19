@@ -1326,7 +1326,25 @@ FOREful
 
 \end_inset
 
- checks you want your roll to land within a specific range.
+ checks you're guessing what the opposing roll will be within a buffer of
+ 
+\begin_inset Formula $\frac{1}{2}$
+\end_inset
+
+ your 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+FORE .
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
@@ -1345,20 +1363,15 @@ FORE
 \end_inset
 
 .
- If the roll is within the range of your predicted [
-\begin_inset ERT
-status open
-
-\begin_layout Plain Layout
-
-
-\backslash
-FORE
-\end_layout
-
+ If the roll is within the range of 
+\begin_inset Formula $(guess-\frac{1}{2}[\FORE])$
 \end_inset
 
-], you succeed.
+and 
+\begin_inset Formula $(guess+\frac{1}{2}[\FORE])$
+\end_inset
+
+, you succeed.
 \end_layout
 
 \begin_layout Standard
@@ -1447,12 +1460,12 @@ status open
 
 
 \backslash
-attribute 
+attribute s
 \end_layout
 
 \end_inset
 
-s during various game situations.
+ during various game situations.
  Generally they work by replacing 
 \begin_inset Formula $[XXX]$
 \end_inset
@@ -1595,7 +1608,9 @@ status open
 
 
 \backslash
-skills 
+skills
+\backslash
+ 
 \end_layout
 
 \end_inset
@@ -1678,12 +1693,12 @@ status open
 
 
 \backslash
-attribute
+attribute s
 \end_layout
 
 \end_inset
 
-s during challenges.
+ during challenges.
  Unlike 
 \begin_inset ERT
 status open
