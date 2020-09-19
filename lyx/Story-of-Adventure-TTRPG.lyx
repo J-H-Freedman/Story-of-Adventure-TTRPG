@@ -112,6 +112,16 @@ filename "WhatIsSoA.lyx"
 \begin_layout Standard
 \begin_inset CommandInset include
 LatexCommand include
+filename "Lore.lyx"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset CommandInset include
+LatexCommand include
 filename "BasicMechanics.lyx"
 
 \end_inset

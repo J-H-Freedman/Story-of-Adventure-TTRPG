@@ -670,19 +670,41 @@ AWESOME
 \end_layout
 
 \begin_layout Standard
-Awesome/Awful adds an extra dynamic element to your character.
- Creates an additional ability (technique or skill) with the value of +50
- 
+To make your campaign
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+campaigns, x.x.x
+\end_layout
+
+\end_inset
+
+ more interesting, I recommend utilizing AWESOME/awful (A/A) abilities.
+ This creates an additional ability with the value of +50 
 \emph on
 and
 \emph default
- an additional skill with the value of -50.
+ an additional ability with the value of -50
+\begin_inset Marginal
+status collapsed
+
+\begin_layout Plain Layout
+There may be situations in which your Skill or technique is a negative number.
+ This acts the same as when it is a positive number but you subtract instead
+ of add.
+ You are, afterall, adding a negative number
+\end_layout
+
+\end_inset
+
+.
 \end_layout
 
 \begin_layout Standard
 This may seem like a free bonus, but I recommend the player and/or the GM
  put the character in awful situations to make the game interesting.
- When an awful ability is rolled, the GM may decide to reward 1 Cool token.
+ When an awful ability is rolled, store 1 Cool token.
 \begin_inset Foot
 status collapsed
 

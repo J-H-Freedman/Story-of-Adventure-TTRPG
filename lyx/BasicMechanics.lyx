@@ -101,8 +101,8 @@ Passing challenges are the core to every game, let alone role playing games.
 \end_layout
 
 \begin_layout Standard
-In SoA, you will almost always want aquire numbers as high as possible to
- pass these challenges.
+In SoA, you will almost always want to acquire numbers as high as possible
+ to pass these challenges.
  You will have plenty tools to help you in this goal: dice rolls, attribute
  effects & modifiers, and skills/techniques.
  
@@ -293,30 +293,35 @@ Challenges!Tie
 \end_layout
 
 \begin_layout Standard
-The win of a tie 
-\emph on
-always
-\emph default
- belongs to the character conducting the action
+A tie is extremely rare.
+ If it is possible at all, there is only a 1% chance for it to occur.
+ So when I tie happens, it is a big deal.
+ 
+\end_layout
+
+\begin_layout Standard
+A tie results in neither a success nor a fail.
+ Instead it drasticly alters the environment and situation.
+ All characters involved recieve a Cool Token 
 \begin_inset Foot
 status collapsed
 
 \begin_layout Plain Layout
-Actions, x.x.x
+Cool Token x.x.x
 \end_layout
 
 \end_inset
 
-.
+
 \end_layout
 
 \begin_layout Section
-Character vs Obsticle
+Character vs Obstacle
 \begin_inset Index idx
 status collapsed
 
 \begin_layout Plain Layout
-Challenges!Obsticle Challenge
+Challenges!Obstacle Challenge
 \end_layout
 
 \end_inset
@@ -334,7 +339,7 @@ These are the most common kinds in TTRPGs.
 \begin_layout Standard
 These are 
 \emph on
-Obsticle Challenges
+Obstacle Challenges
 \emph default
  and are tied to your Attributes.
 \begin_inset Foot
@@ -346,7 +351,7 @@ Attributes, x.x.x
 
 \end_inset
 
- These typically involve you rolling over a determined threashold decided
+ These typically involve you rolling over a determined threshold decided
  by the GM.
  They may be treated as either a pass/fail binary or be treated with degrees
  of success or failure.
@@ -367,7 +372,7 @@ Determined Threshold
 \end_layout
 
 \begin_layout Standard
-When the GM requests that you complete an Obsticle Challenge, they usually
+When the GM requests that you complete an Obstacle Challenge, they usually
  have a number in mind that must be met or surpassed.
  This is the 
 \emph on
@@ -390,7 +395,7 @@ Determined Threshold!of Successes
 
 \begin_layout Standard
 The GM may or may not tell you what exactly this threshold is.
- Sharing this information may create tangable tension but hiding it should
+ Sharing this information may create tangible tension but hiding it should
  be flat out scary.
 \end_layout
 
@@ -482,6 +487,10 @@ Never
  Roleplay appropriately and see what happens.
 \end_layout
 
+\begin_layout Subsection
+Using a Cool token
+\end_layout
+
 \begin_layout Standard
 Spending a cool token must be done and announced 
 \emph on
@@ -509,11 +518,6 @@ Usually you will chose to use both, but there are contexts in which you
 .
 \end_layout
 
-\begin_layout Standard
-It is recommended for the maximum Cool token cap to be 1 per player, but
- this suggested may be bent at the GM's discression
-\end_layout
-
 \begin_layout Chapter
 Health and Energy
 \end_layout
@@ -533,7 +537,7 @@ Health
 \end_layout
 
 \begin_layout Standard
-Health represents tangable, lasting damage to a character's body.
+Health represents tangible, lasting damage to a character's body.
  Although most damage can get absorbed by energy, the GM may utilize Direct
  Damage
 \begin_inset Index idx
@@ -553,7 +557,7 @@ Maximum Health
 \end_layout
 
 \begin_layout Standard
-Maximum health is eaqual to the total spent Attribute Points
+Maximum health is equal to the total spent Attribute Points
 \begin_inset Foot
 status collapsed
 
@@ -567,7 +571,7 @@ attrubutes points, x.x.x
 \end_layout
 
 \begin_layout Subsection
-Perminanent Wounds
+Permanent Wounds
 \begin_inset Index idx
 status collapsed
 
@@ -596,7 +600,7 @@ Death
 
 \begin_layout Standard
 Once a character's health reaches or drops below 0, the character is dead.
- The good news is that death doesn't have to be perminent! This may be an
+ The good news is that death doesn't have to be Permanent! This may be an
  opportunity for your friends to go on an adventure to revive you while
  you train in the afterlife and learn a new technique.
 \end_layout
@@ -608,7 +612,7 @@ However, if the player desires, they may instead create a new character
 \emph on
 choice
 \emph default
- and not a neccessity.
+ and not a necessity.
 \end_layout
 
 \begin_layout Section
@@ -636,7 +640,7 @@ is equal to double your maximum health.
 status collapsed
 
 \begin_layout Plain Layout
-Optional advanced rules complicate max energy calulations
+Optional advanced rules complicate max energy calculations
 \end_layout
 
 \end_inset
@@ -660,7 +664,7 @@ techniques, x.x.x
 \end_inset
 
 , an energy cost must be paid.
- The base conse is 10.
+ The base cost is 10.
  With each advancement
 \begin_inset Foot
 status collapsed
@@ -695,7 +699,7 @@ Except for Direct Damage, all other damage may be absorbed by energy instead
 \end_layout
 
 \begin_layout Subsection
-Exersion
+Exertion
 \end_layout
 
 \begin_layout Standard
@@ -733,7 +737,7 @@ Encounters
 \begin_layout Standard
 The structure of how events take place are usually unimportant but are still
  expected to occur frequently.
- Hierchy is occurs as follows:
+ The hierarchy is occurs as follows:
 \end_layout
 
 \begin_layout Enumerate
