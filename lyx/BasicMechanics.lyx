@@ -951,7 +951,7 @@ Encounters
 \begin_layout Standard
 The structure of how events take place are usually unimportant but are still
  expected to occur frequently.
- Hierchy is occurs as follows:
+ Hierarchy is occurs as follows:
 \end_layout
 
 \begin_layout Enumerate
@@ -970,20 +970,23 @@ Encounter
 
 \begin_deeper
 \begin_layout Itemize
-This encapsulates predetermined or indefinite rounds
+The entirety of the situation at hand.
+ Where we are, why we're here, and who you're against.
+ Encounters proceed over a predetermined or indefinite number of engagements,
+ called Rounds.
 \end_layout
 
 \begin_layout Itemize
-An encounter ends when 
+An encounter ends when either: 
 \end_layout
 
 \begin_deeper
 \begin_layout Itemize
-(predetermined) the round countdown reaches 0
+A predetermined number of Rounds has passed.
 \end_layout
 
 \begin_layout Itemize
-(indefinite) only one team is able to take Turns
+Only one team is able to take Turns.
 \end_layout
 
 \end_deeper
@@ -1004,7 +1007,8 @@ Round
 
 \begin_deeper
 \begin_layout Itemize
-These encapsulate 
+The state of the situation.
+ Who's where, what can they do? Rounds encapsulate 
 \emph on
 every
 \emph default

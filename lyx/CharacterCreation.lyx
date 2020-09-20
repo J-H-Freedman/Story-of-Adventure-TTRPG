@@ -1883,20 +1883,7 @@ AWEAWF
 \emph on
 and
 \emph default
- an additional ability with the value of -50
-\begin_inset Marginal
-status collapsed
-
-\begin_layout Plain Layout
-There may be situations in which your Skill or technique is a negative number.
- This acts the same as when it is a positive number but you subtract instead
- of add.
- You are, afterall, adding a negative number
-\end_layout
-
-\end_inset
-
-.
+ an additional ability with the value of -50.
 \end_layout
 
 \begin_layout Standard
@@ -1908,6 +1895,26 @@ status collapsed
 
 \begin_layout Plain Layout
 Cool, x.x.x
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{There may be situations in which your Skill or technique is a negative
+ number.
+ This acts the same as when it is a positive number but you subtract instead
+ of add.
+ You are, afterall, adding a negative number}
 \end_layout
 
 \end_inset
@@ -1942,23 +1949,87 @@ attribute
 \end_layout
 
 \begin_layout Subsection
-Attribute Advancement
-\end_layout
-
-\begin_layout Standard
-When given the opportunity, you pick an attribute you used during this session.
- To advance it, roll a d10
-\begin_inset Marginal
-status collapsed
+\begin_inset ERT
+status open
 
 \begin_layout Plain Layout
-A d10 is a ten sided die
+
+
+\backslash
+attribute
 \end_layout
 
 \end_inset
 
-.
- The results are the amout of AP the attribute is increased by.
+ Advancement
+\end_layout
+
+\begin_layout Standard
+When given the opportunity, you pick an 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\end_layout
+
+\end_inset
+
+ you used during this session, and roll a d10 to advance it.
+ The result of your roll is the amount of 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attrval
+\end_layout
+
+\end_inset
+
+ the 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+attribute
+\end_layout
+
+\end_inset
+
+ is increased by.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{As a reminder! Once an 
+\backslash
+attribute
+\backslash
+ reaches 100 or above it triggers a 
+\backslash
+BURST
+\backslash
+ !}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Subsection
