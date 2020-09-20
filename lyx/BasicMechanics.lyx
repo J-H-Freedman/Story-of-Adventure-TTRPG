@@ -5,6 +5,9 @@
 \save_transient_properties true
 \origin unavailable
 \textclass book
+\begin_preamble
+\input{doc_common.tex}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language english
@@ -101,8 +104,26 @@ Passing challenges are the core to every game, let alone role playing games.
 \end_layout
 
 \begin_layout Standard
+<<<<<<< HEAD
 In SoA, you will almost always want to acquire numbers as high as possible
  to pass these challenges.
+=======
+In 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gametitlemini
+\end_layout
+
+\end_inset
+
+, you will almost always want aquire numbers as high as possible to pass
+ these challenges.
+>>>>>>> 094bb8d02d33ac93b404c71365da747b31e0c2d7
  You will have plenty tools to help you in this goal: dice rolls, attribute
  effects & modifiers, and skills/techniques.
  
@@ -127,7 +148,7 @@ Pass
 \begin_layout Itemize
 Success
 \begin_inset Index idx
-status collapsed
+status open
 
 \begin_layout Plain Layout
 Challenges!Success
@@ -135,12 +156,7 @@ Challenges!Success
 
 \end_inset
 
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The total
+ The total
 \begin_inset Marginal
 status collapsed
 
@@ -161,7 +177,6 @@ The total
  meets one instance of the requirements of the Challenge.
 \end_layout
 
-\end_deeper
 \begin_layout Itemize
 Pass
 \begin_inset Index idx
@@ -173,15 +188,9 @@ Challenges!Pass
 
 \end_inset
 
-
+ The Challenge itself is completed and the result is positive.
 \end_layout
 
-\begin_deeper
-\begin_layout Itemize
-The Challenge itself is completed and the result is positive.
-\end_layout
-
-\end_deeper
 \begin_layout Itemize
 Fail
 \begin_inset Index idx
@@ -193,12 +202,7 @@ Challenges!Fail
 
 \end_inset
 
-
-\end_layout
-
-\begin_deeper
-\begin_layout Itemize
-The total does 
+ The total does 
 \emph on
 not
 \emph default
@@ -216,7 +220,6 @@ Neutral results occur when you try to do something and fail.
  or negative.
 \end_layout
 
-\end_deeper
 \begin_layout Standard
 Most of the Challenges you will encounter require only one success to pass.
  However some challenges will require multiple successes or will result
@@ -224,7 +227,7 @@ Most of the Challenges you will encounter require only one success to pass.
 \end_layout
 
 \begin_layout Subsection
-Degree of Success and Failure
+Degree of Success and Failure (DSF)
 \begin_inset Index idx
 status collapsed
 
@@ -331,8 +334,8 @@ Challenges!Obstacle Challenge
 
 \begin_layout Standard
 These are the most common kinds in TTRPGs.
- They are non-combat related and can range from climbing a fence to painting
- a fence to breaking a fence.
+ They are generally non-combat related and can range from climbing a fence
+ to painting a fence to breaking a fence.
  
 \end_layout
 
@@ -394,9 +397,34 @@ Determined Threshold!of Successes
 \end_layout
 
 \begin_layout Standard
+<<<<<<< HEAD
 The GM may or may not tell you what exactly this threshold is.
  Sharing this information may create tangible tension but hiding it should
  be flat out scary.
+=======
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{The GM may or may not tell you what exactly this threshold is.}
+\end_layout
+
+\begin_layout Plain Layout
+
+
+\backslash
+notetoGM{Sharing this information may create tangable tension, but hiding
+ it should be flat out scary.
+ Pick your moments well.}
+\end_layout
+
+\end_inset
+
+
+>>>>>>> 094bb8d02d33ac93b404c71365da747b31e0c2d7
 \end_layout
 
 \begin_layout Section
@@ -418,7 +446,7 @@ Damage
 \end_layout
 
 \begin_layout Standard
-Damage is calculated by the degree
+Damage is calculated by the DSF
 \begin_inset Foot
 status collapsed
 
@@ -432,10 +460,77 @@ degrees
 
 \end_inset
 
- of success/failure of the given challenge.
- The damage will then be distributed to health and/or energy.
- There are some contexts in which damage will go directly to health, but
- I recommend those to be few and far between.
+ from the given challenge.
+ Once calculated, the damage will then be distributed to 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HPful 
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENful 
+\end_layout
+
+\end_inset
+
+ as necessary.
+ Players will generally be able to distribute their damage between 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HPful 
+\end_layout
+
+\end_inset
+
+ and 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENful 
+\end_layout
+
+\end_inset
+
+ as they see fit, however some situations may force all of the damage onto
+ one or the other without compromise.
+ 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+notetoGM{There are some contexts in which damage will go directly to health,
+ but I recommend those to be few and far between.}
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Section
@@ -466,6 +561,7 @@ It may build character; it may be narratively interesting; it may be a character
 \end_layout
 
 \begin_layout Standard
+<<<<<<< HEAD
 Although 
 \begin_inset Quotes eld
 \end_inset
@@ -492,6 +588,8 @@ Using a Cool token
 \end_layout
 
 \begin_layout Standard
+=======
+>>>>>>> 094bb8d02d33ac93b404c71365da747b31e0c2d7
 Spending a cool token must be done and announced 
 \emph on
 before
@@ -518,12 +616,58 @@ Usually you will chose to use both, but there are contexts in which you
 .
 \end_layout
 
+<<<<<<< HEAD
+=======
+\begin_layout Standard
+It is recommended for the maximum Cool token cap to be 1 per player, but
+ this suggested may be bent at the GM's discression
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{
+\begin_inset Quotes eld
+\end_inset
+
+Cool
+\begin_inset Quotes erd
+\end_inset
+
+ is subjective, but this does not excuse stupidity.
+ Never assume the GM will give you cool tokens.
+ Roleplay appropriately and see what happens.}
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+>>>>>>> 094bb8d02d33ac93b404c71365da747b31e0c2d7
 \begin_layout Chapter
 Health and Energy
 \end_layout
 
 \begin_layout Section
-Health
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HPful
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status collapsed
 
@@ -537,14 +681,64 @@ Health
 \end_layout
 
 \begin_layout Standard
+<<<<<<< HEAD
 Health represents tangible, lasting damage to a character's body.
  Although most damage can get absorbed by energy, the GM may utilize Direct
  Damage
 \begin_inset Index idx
 status collapsed
+=======
+\begin_inset ERT
+status open
+>>>>>>> 094bb8d02d33ac93b404c71365da747b31e0c2d7
 
 \begin_layout Plain Layout
-Direct Damage
+
+
+\backslash
+HPful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+is a crucial metric that represents tangable, lasting damage to a character's
+ body.
+ Too much 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+HPful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+damage could result in a 
+\shape italic
+permanent wound.
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+newplayr{Keep your guard up! Although most damage can get absorbed by energy,
+ some situations may utilize {
+\backslash
+slshape Direct Damage} which can force all of the incoming damage to 
+\backslash
+HPful !}
 \end_layout
 
 \end_inset
@@ -616,7 +810,19 @@ choice
 \end_layout
 
 \begin_layout Section
-Energy
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENful
+\end_layout
+
+\end_inset
+
+
 \begin_inset Index idx
 status collapsed
 
@@ -627,6 +833,70 @@ Energy
 \end_inset
 
 
+\end_layout
+
+\begin_layout Standard
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+is a critical resource within 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+gametitlemini
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+with a variety of uses from executing 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+techn s
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+ to mitigating critical injury.
+ Managing how and when to use your 
+\begin_inset ERT
+status open
+
+\begin_layout Plain Layout
+
+
+\backslash
+ENful
+\backslash
+ 
+\end_layout
+
+\end_inset
+
+is vital to survival.
 \end_layout
 
 \begin_layout Subsection

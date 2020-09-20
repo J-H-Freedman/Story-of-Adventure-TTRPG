@@ -1,0 +1,40 @@
+%% LyX 2.3.5.2 created this file.  For more info, see http://www.lyx.org/.
+%% Do not edit unless you really know what you are doing.
+\RequirePackage{fixltx2e}
+\documentclass[english]{book}
+\usepackage{newcent}
+\usepackage{helvet}
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
+\usepackage[a4paper]{geometry}
+\geometry{verbose,tmargin=0.75in,bmargin=0.75in,lmargin=1in,rmargin=1in}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\makeindex
+
+\makeatletter
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
+\input{doc_common.tex}
+
+\makeatother
+
+\usepackage{babel}
+\begin{document}
+\title{{\Huge\slshape \gametitle} \\
+{\large \gamesubtitle}}
+\author{J.H. Freedman}
+
+\maketitle
+\tableofcontents
+
+
+\include{WhatIsSoA}
+
+\include{BasicMechanics}
+
+\include{CharacterCreation}
+
+\makeindex
+
+\end{document}
