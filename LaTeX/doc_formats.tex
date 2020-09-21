@@ -1,0 +1,61 @@
+%% Rules for formatting inserts
+
+%%% fillrline 1: Percentage of line width
+%%% Inserts a solid line to partition off parts of text
+\def\fillrline#1{%
+	\vspace{-1em}
+	\begin{figure}[H]
+		\begin{center}
+			\makebox[#1]{\hrulefill}
+		\end{center}
+		\vspace	{-1.25em}
+	\end{figure}
+	}
+%%% fillrlinemid 60%
+%%% fillrlinemost 80%
+%%% fillrlinefull 100%
+%%% Quick formats for filler lines at different lengths
+\def\fillrlinemid{\fillrline{0.6\linewidth}}
+\def\fillrlinemost{\fillrline{0.8\linewidth}}
+\def\fillrlinefull{\fillrline{1.0\linewidth}} % :w for WHOOPS
+
+%%% newplayr 1: Text
+%%% Sets up a figure box for callouts for new players
+\def\newplayr#1{%
+        \begin{figure}[H]{%
+                        \makebox[3em]{\dotfill}\ {\large New Players!}\ \dotfill\vspace{-2em}\linebreak
+                        \begin{flushleft}
+                                #1\vspace{-1em}
+                        \end{flushleft}
+                        \strut\dotfill
+                        }   
+        \end{figure}
+        }   
+
+%%% notetoGM 1: Text
+%%% Sets up a callout box for would-be GMs
+\def\notetoGM#1{%
+        \begin{figure}[H]{%
+                        \makebox[3em]{\hrulefill}\ {\large A Note to the GM}\ \hrulefill\vspace{-2em}\linebreak
+                        \begin{flushleft}
+                                #1\vspace{-1em}
+                        \end{flushleft}
+                        \strut\hrulefill
+                        }
+        \end{figure}
+	}
+
+\def\equview#1{%
+	\begin{figure}[H]
+		\vspace{-0.75em}
+		\begin{center}
+			{\large #1}\vspace{-1.00em}
+		\end{center}
+        \end{figure}
+}
+
+%%% burstline 1: Text
+%%% Adds a small callout to the beginning of the line to make the BURST boost seem more important and exciting
+\def\burstline#1{\noindent \vdots\ {\large \BURST} \vdots\ #1}
+
+%%% 

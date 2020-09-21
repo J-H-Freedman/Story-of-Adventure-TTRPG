@@ -1,0 +1,100 @@
+//Changelog 19 Sep 2020
+// Global Changes-------------------------------------------------------
+// New Commons File ---------------------
+Included a new file (doc_common.tex) in the preamble of each of the files. This will let us define doc-wide inputs, formats, meta-info, packages, etc.
+New stuff inside the file includes:
+
+// String Macros
+\gametitle "Story of Adventure"
+\gametitlemini "S.O.A."
+\gamesubtitle "A Table-Top Role-Playing Game"
+\HP "HP"
+\HPful "Health"
+\EN "EN"
+\ENful "Energy"
+\KNOW "KNO"
+\KNOWful "Knowledge"
+\POWE "POW"
+\POWEful "Power"
+\FORE "ESP"
+\FOREful "Foresight"
+\SPED "SPD"
+\SPEDful "Speed"
+\ENDU "END" <- I wasn't sure how LaTeX would've liked \END since there is already \end which is why I went with this dumb naming scheme.
+\ENDUful "Endurance"
+\BURST "BURST"
+\BURSTmini "B!"
+\skills "Skill"
+\skillval "SP"
+\techn "Technique"
+\attribute "Attribute"
+\attrval "AP"
+\advancement "Advancement"
+\AWE "AWESOME"
+\AWF "AWFUL"
+\AWEAWF "AWESOME/AWFUL"
+
+Some might be a little redundant, but it was mostly for future proofing (e.g. we don't like the name "Attribute" anymore for some reason, or wanted to change the title.) At the moment they're not 100% incorporated into the copy. I'm still combing through and inserting macros as I find them.
+
+
+// Formatting marcos
+\newplayr{*text*} - Inspired a bit by burning wheel's manual. It makes a callout box for tips for new players. It looks kinda like this at the moment:
+.... New Player! ......................................
+			*Text*
+.......................................................
+Hardly set in stone.
+
+\notetoGM{*text*} - Same as above but for would-be GMs. It kinda looks like this:
+____A Note to the GM____________________________________
+			*Text*
+________________________________________________________
+Also not in stone
+
+// Margins & Sizing -----------------
+In general I pulled most of the left/right margin notes into the body or moved them to new player/gm call outs
+Changed the sizing and margins to match something like the warhammer manuals. Currently a4paper, 0.5in Top & Bottom, 1in left & Right
+
+
+// Hyperlinks ------------------------
+Added the hyperref LaTeX package so the table of contents can jump to the sections of the doc.
+
+// CharacterCreation.lyx --------------------------------------------------------------------------
+This is where most of my changes are at the moment. So apart from inserting macros refs...
+
+7.1 -------------
+Changed the copy to reference the 5 core attributes, how they're increased, and emphasized a bit more that they're for bonuses. Added a new player callout for the starting Health and Energy
+
+7.2 -------------
+Changed the wording slightly but the message is the same. Although I did move the low attribute warning to a callout.
+
+7.3 -------------
+Changed the wording about getting a value for the d100 to be less specific to dice. Basically saying it's a value between 1 - 100 and listing options for getting it. LMK if you're fine with that ( also everything else too I guess :V).
+Attributes in general I added a small blurb to the start of each section that states what the general intent is for each check.
+7.3.1 -----
+Changed the wording a bit in some spots (e.g. dump -> allocate, sounds fancier imo) and added a statement for how to pass/fail
+
+7.3.2 -----
+Changed the equation to match the copy. 2(d100 + POW) makes it look like the d100 was a constant being multiplied by 2 instead of 2 seperate rolls that are being added to.
+
+7.3.3 -----
+This one I changed a bit more to emphasize the seperate thresholds, how they're reached, and make the process a bit more verbose (to me at least). Moved the margin note to a player callout. LMK if it's on base or not.
+
+7.3.4 -----
+I changed how Speed was worded to simplify the process down to one line.  I also removed the Stack term and just called it a running total to keep in line with the other attribute descriptions. It wasn't used anywhere else so I thought it'd be alright to remove it but lmk.
+
+7.3.5 -----
+The only thing I added to foresight was the blurb
+
+8 --------------------
+This section I mostly just made wordier in spots. The intro blurb I changed the wording around and emphasized the Skill/Tech/AWEAWF split a bit more.
+
+8.1 -------
+Skills I added clarifications to how they're built (Skill Points) and what their bonuses are calculated from (Skill Points).
+Move the caution regarding Techniques to a new player callout.
+
+8.2 -------
+YMMV but I tried to hint a bit more how techniques can be a bit more advanced than attribute boosts. Added notes about cost, how it's tied to advancement, and that they can get other effects (there was a fire punch mentioned or am I mis-remembering?). Moved the part about being able to use them in normal challenges to a new player callout.
+
+8.3 is about where I stopped. These were the major changes otherwise it's just macro refs being added with some spelling corrections here and there.
+
+I still need to move some of the margin notes, and add more refs. LMK
