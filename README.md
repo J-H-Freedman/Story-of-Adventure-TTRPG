@@ -4,12 +4,12 @@ The latest copies of the documents can be found in the "pdf" folder. They should
 
 Editing the document --------------------------------
 
-To edit the document itself, you will need a standard install of LaTeX, Make, and the IDE or Text Editor of your choice. 
-For LaTeX we recommend using either TeXLive (http://tug.org/texlive/) or MikTex (https://miktex.org/). These are standard and should contain everything LaTeX you will need. 
+To edit the document itself, you will need a standard install of LaTeX, Make, and the IDE (Texmaker recommended (https://www.xm1math.net/texmaker/) or Text Editor of your choice. 
+For LaTeX installations we recommend using either TeXLive (http://tug.org/texlive/) or MikTex (https://miktex.org/). These are standard and should contain everything LaTeX you will need. 
 For anything else be sure that it supports the following packages:
 newcent, helvet, courier, fontenc, inputenc, geometry, amssymb, imakeidx, titling, float, ragged2e, hyperref
 
-And also contains a copy of pdflatex. 
+And also contains pdflatex for compilation. 
 
 For compiling simply navigate to the LaTeX folder and run make. Current options are as follows:
 *nothing* : Compiles the document and places the pdf in the "pdf" folder. 
