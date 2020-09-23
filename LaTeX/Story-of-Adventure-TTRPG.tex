@@ -1,0 +1,23 @@
+\documentclass[english]{book}
+%% Root file for the manual. This is the one to compile. 
+\input{main_preamble.tex} % <- Don't remove!
+\title{{\Huge\slshape \gametitle} \\ {\large \gamesubtitle}}
+\author{J.H. Freedman}
+\makeindex
+
+\begin{document}
+\raggedright
+\frontmatter
+\maketitle
+\tableofcontents
+
+\mainmatter
+\include{WhatIsSoA}
+\include{Lore}
+\include{BasicMechanics}
+\include{CharacterCreation}
+\include{AdvancedMechanics}
+
+\backmatter
+\printindex
+\end{document}
