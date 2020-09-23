@@ -1,0 +1,85 @@
+%% Big Ol' Label List
+%% Make sure when you use these in pageref and the like that
+%% you use the whole string (i.e. "part:whatis" not just "whatis")
+%%
+%% If anyone adds to this I'd just like to request that they keep 
+%% a similar naming scheme.
+
+part:whatis -> What is SoA
+part:basics -> Basic Mechanics
+part:char_creation -> Character Creation
+part:story -> Story of the Universe
+
+ch:intro_to_rpg -> An Introduction to Role Playing Games
+ch:challenges -> Challenges
+ch:game_intro -> An Introduction to SoA
+ch:hp_and_en -> Health and Energy
+ch:encounter -> Encounters
+ch:char_attributes -> Character Attributes
+ch:skills_and_tech -> Skills and Techniques
+ch:char_develop -> Character Development
+ch:tech_lore -> Technology Levels
+ch:corp_lore -> Corporations
+ch:planets -> Planets
+
+sec:whatis_rpg -> What is a Role Playing Game?
+sec:whatis_gm -> What is a Game Master?
+sec:whatis_player -> What is a Player?
+sec:adventures -> Sessions, Campaigns, and One-Off Adventures
+sec:why_gametitle -> What makes *GameTitle* different?
+sec:whatis_openrpg -> What is an Open Ended RPG?
+sec:thetotal -> The Total
+sec:success -> Success, Pass, & Fail
+sec:vs_obstacle -> Character vs Obstacle
+sec:vs_character -> Character vs Character
+sec:cool_tokens -> Cool Tokens
+sec:hp -> Health
+sec:energy -> Energy
+sec:attributes -> Attributes
+sec:attr_usage -> Attribute Usage
+sec:skills -> Skills
+sec:techniques -> Techniques
+sec:aweawf -> Awesome/Awful
+sec:advancement -> Advancement
+sec:adv_injuries -> Injuries & Enhancements
+sec:possessions -> Possessions
+sec:intersets -> Persons, Places, & Things of Interest
+sec:dieseltech_lore -> Diesel-tech
+sec:cybertech_lore -> Cyber-tech
+sec:biotech_lore -> Bio-tech
+sec:magitech_lore -> Magi-tech
+sec:megacorp_lore -> Mega-Corporation
+sec:unions_guilds -> Unions & Guilds
+sec:ecosystem -> Ecosystems
+sec:economy -> Economy
+
+subsec:sessions -> Session
+subsec:campaigns -> Campaign
+subsec:one_off -> One-Off
+subsec:holdit_gm -> Warning to the GM
+subsec:determined_threshold -> Determined Threshold
+subsec:dsf -> Degree of Success and Failure
+subsec:tie -> In Case of a Tie
+subsec:damage_types -> Damage Types and Diversion
+subsec:damage_calc -> Damage Calculation
+subsec:wounds -> Permanent Wounds
+subsec:death -> Death
+subsec:tech_resources -> Technique Resources
+subsec:exhaustion -> Overexertion
+subsec:pass_out -> Passing Out
+subsec:attr_points -> Attribute Enhancement and AP
+subsec:BURST -> BURST
+subsec:notation -> Notation
+subsec:kno -> Knowledge
+subsec:pow -> Power
+subsec:end -> Endurance
+subsec:spd -> Speed
+subsec:esp -> Foresight
+subsec:adv_techniques -> Earning Attribute Points
+subsec:adv_ability -> Ability Advancement
+subsec:subcorp_lore -> Subsidiaries
+subsec:macro_eco -> Macro-Ecosystems
+subsec:micro_eco -> Micro-Ecosystems
+subsec:macro_money -> Macro-Economies
+subsec:micro_money -> Micro-Economies
+subsec:local_marts -> Local Markets
