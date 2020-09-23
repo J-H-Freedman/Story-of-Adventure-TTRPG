@@ -45,6 +45,8 @@
         \end{figure}
 	}
 
+%%% equview #1
+%%% Makes the equations in the attribute section stand out. Breaks lines and makes the text big and centered
 \def\equview#1{%
 	\begin{figure}[H]
 		\vspace{-0.75em}
@@ -58,4 +60,6 @@
 %%% Adds a small callout to the beginning of the line to make the BURST boost seem more important and exciting
 \def\burstline#1{\noindent \vdots\ {\large \BURST} \vdots\ #1}
 
-%%% 
+%%% footnoteref 1: label
+%%% Adds a page number reference in the foot notes based on the passed label.
+\def\footnoteref#1{\footnote{\nameref{#1}, pg. \pageref{#1}}}

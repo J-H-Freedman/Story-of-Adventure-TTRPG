@@ -1,64 +1,65 @@
 % Don't compile this! This is only part of the manual it won't work on its own.
-\part{Character Creation}
-\chapter{Character \attribute s}
+\part{Character Creation}\label{part:char_creation}
+\chapter{Character \attribute s}\label{ch:char_attributes}
 
 % Intro --------------------------
-\section{\attribute s and \attrval}
+\section{\attribute s}\label{sec:attributes}
 Your character's actions and abilities are built around 5 \attribute\ 
-categories: \POWEful, \KNOWful, \ENDUful, \SPEDful, and \FOREful.Throughout
-your campaign(s) you'll be able to build in these areas by spending
-\attribute\ points (\attrval). Each \attribute\  gives a purely
+categories: \POWEful, \KNOWful, \ENDUful, \SPEDful, and \FOREful. Each \attribute\  gives a purely
 bonus-based benefit, which means that it's fine, and expected, for
 your character to have 0's in some of their \attribute\  categories.
 Thematically a 0 just means that your character will be average in that
 area; you will still be able to make all of your necessary rolls--
 you just won't get any bonuses! 
 
-\newplayr{When making a new character you start with 50 \attrval\ to spend between each \attribute . However! This means your starting \HPful\ is 50 and your starting \ENful\ is 100 so be careful!}
+\subsection{\attribute\ Enhancement and \attrval}\label{subsec:attr_points}
+Throughout your campaign(s) your \attribute s will be able to be enhanced by spending \attribute\ Points (\attrval). Each point spent will increase the \attribute\ directly by the same amount. New characters will start with 50 \attrval\ to allocate how they wish. Afterwards they'll be earned at the end of a session, or by some other alternate means.
+
+\newplayr{Since new characters start with 50 \attrval\ this also means their starting \HPful\ is 50 and their starting \ENful\ is 100 so be careful!}
 
 % Burst --------------------------
-\section{\BURST\index{BURST}}
-
-When an \attribute\  reaches \textbf{100}, it triggers a \BURST !
+\subsection{\BURST\index{\BURST}}\label{subsec:BURST}
+When an \attribute\ reaches \textbf{100}, it triggers a \BURST !
 This does a few things:
 \begin{itemize}
-\item Grants a permanent upgrade specific to the \attribute\ that triggered the \BURST.
-\item Grants a new \techn\  tied to the \attribute.
-\item Reduces the \attribute\  back down to \textbf{10}.
+\item Grants a permanent upgrade specific to the \attribute\ that triggered the \BURST .
+\item Grants a new \techn\ tied to the \attribute.
+\item Reduces the \attribute\ back down to \textbf{10}.
 \end{itemize}
 \newplayr{Despite the \attribute\ reduction, the upgrades from a \BURST\ are substantial and I recommend triggering a \BURST\ whenever possible. However! Moderation is important. Triggering too many at once could leave you in a tight spot so I also recommend keeping a few \attribute\ scores high until the others have recovered.}
 
 % Start Attribute Usage -------------------------
-\section{\attribute\ Usage}
-As mentioned, your character's \attribute s are the core of everything that they do in \gametitle. Most, and possibly all, of your character's actions will involve forming a total using 1 or more \attribute . Each \attribute\ has its own method of being calculated as well as conditions for passing and failing\footnote{Success, x.x.x}. 
+\section{\attribute\ Usage}\label{sec:attr_usage}
+As mentioned, your character's \attribute s are the core of everything that they do in \gametitle. Most, and possibly all, of your character's actions will involve forming a total using 1 or more \attribute . Each \attribute\ has its own method of being calculated as well as conditions for passing and failing\footnoteref{sec:success}. 
 
-\newplayr{The notation for this section:
+\subsection*{Usage Notation}\label{subsec:notation}
+The notation for this section is as follows:
 \begin{itemize}
 	\item d100\index{d100} refers to a number from 1 -- 100. This can be from either two ten-sided dice rolled to create a number with a range of 100, a random number generator, or however you decide to generate it.
-	\item XXX refers to the \attribute\ ``XXX'' and everything that entails.
-	\item {[}XXX{]} refers to the variable ``XXX'' itself.
+	\item XXX refers to the \attribute\ 's process and everything that it entails.
+	\item {[}XXX{]} refers to the value of the \attribute\ itself.
 \end{itemize}
-}
+\clearpage
 
 % Knowledge ------------------------
-\subsection{\KNOWful\ {[}\KNOW\index{\attribute!\KNOWful}{]}}
+\subsection{\KNOWful\ {[}\KNOW\index{\attribute!\KNOWful}{]}}\label{subsec:kno}
 
 \equview{$d100 + [\KNOW]$}
 
-\noindent For \KNOWful\  checks you want your total to be \textit{above} a target amount, otherwise you fail.
-\noindent Roll a d100 and add {[}\KNOW{]} to the amount. If it's above the target then you pass, and if not then you fail.
+\noindent For \KNOWful\ checks you want your total to be \textit{above} as high as possible.
+\noindent Roll a d100 and add {[}\KNOW{]} to the amount. If it's above the Threshold then you pass, and if not then you fail.
 \fillrlinemid
-\noindent Any time you would ask, ``Does my character know/notice...''
-you may roll a \KNOW. Additionally, {[}\KNOW{]} is added directly to your \skill\ checks.\footnote{\skill\ Checks, x.x.x}
+\noindent Any time you would ask, ``Does my character know/notice...'' you may execute a \KNOW. 
+Additionally, {[}\KNOW{]} itself is added directly to your \skill\ checks.\footnoteref{sec:skills}
 
-\burstline{Allocate 100 \skill\ Points\footnote{\skillval, x.x.x} into your existing \skill (s) however you please.}
+\burstline{Allocate 100 \skill\ Points\footnoteref{sec:skills} into your existing \skill (s) however you please.}
 
 % Power ----------------------------
-\subsection{\POWEful\ {[}\POWE\index{\attribute!\POWEful}{]}}
+\subsection{\POWEful\ {[}\POWE\index{\attribute!\POWEful}{]}}\label{subsec:pow}
 
 \equview{$d100_{1}+d100_{2}+2([\POWE])$}
 
-\noindent For \POWEful\  checks you want to try to roll the biggest, and we mean \emph{BIGGEST}, total possible.
+\noindent For \POWEful\ checks you want to try to roll the biggest, and we mean \emph{BIGGEST}, total possible.
 \noindent Roll 2 d100s and add {[}\POWE{]} to each result. In pass or fail situations, if it is above the Threshold then you succeed.
 \fillrlinemid
 \noindent A \POWE\ may be utilized for most \emph{Double} actions
@@ -66,20 +67,18 @@ you may roll a \KNOW. Additionally, {[}\KNOW{]} is added directly to your \skill
 \burstline{Permanently increase the \POWE\ multiplier by 1 (e.g. $2\rightarrow3$).}
 
 % Endurance-------------------------
-\subsection{\ENDUful\ {[}\ENDU\index{\attribute!\ENDUful}{]}}
+\subsection{\ENDUful\ {[}\ENDU\index{\attribute!\ENDUful}{]}}\label{subsec:end}
 
-\equview{$(d100 \pm [\ENDU])  \divideontimes$ turns until pass or fail}
+\equview{$(d100 \pm [\ENDU])  \divideontimes\ $ turns until pass or fail}
 
-\noindent For \ENDUful\ checks your rolls add to a running total proceeding towards specific \textit{thresholds}.
+\noindent For \ENDUful\ checks your rolls will add to a running total that proceeds towards specific \emph{thresholds}.
 
 \noindent Every turn of an \ENDU\ check begins with a d100 roll, but it proceeds differently depending on if you're \emph{storing} or \emph{spending} an amount:
 \begin{itemize}
-	\item If the amount is being \emph{stored} to your total for the next turn(s), add {[}\ENDU{]} to the roll and the result to the total. The desired effect occurs \emph{when} the \textit{storing} threhsold is reached.
-	\item If the amount is being \emph{spent} from your total from the previous turn(s), subtract {[}\ENDU{]} from the roll and the result from the total. The desired effect occurs \emph{until} the \textit{spending} threshold is reached.
+	\item If the amount is to be \emph{stored} to your total for the next turn(s), add {[}\ENDU{]} to the roll and the result to the total. The desired effect occurs \emph{when} the \textit{storing} threhsold is reached.
+	\item If the amount is to be \emph{spent} from your total from the previous turn(s), subtract {[}\ENDU{]} from the roll and the result from the total. The desired effect occurs \emph{until} the \textit{spending} threshold is reached.
 \end{itemize}
-
 \fillrlinemid
-
 \noindent Any time your action would take multiple turns, you may run an \ENDU. Depending on context, an \ENDU\  may either be a \emph{Unique} action or a \emph{Double} action.
 
 \burstline{Permanently increase the \emph{turn} multiplier by 1. This means you roll an additional action for \emph{storing} and skip an additional action for \emph{spending.}}
@@ -87,40 +86,39 @@ you may roll a \KNOW. Additionally, {[}\KNOW{]} is added directly to your \skill
 \noindent \newplayr{Generally speaking, storing to your total will produce positive effects in later turns so you'll want to try to build this as quickly as possible. Conversely, spending from your total will generally block undesirable effects so you'll want to keep this as low as possible.}
 
 % Speed ----------------------------------
-\subsection{\SPEDful\ {[}\SPED\index{\attribute!\SPEDful}{]}}
+\subsection{\SPEDful\ {[}\SPED\index{\attribute!\SPEDful}{]}}\label{subsec:spd}
 
 \equview{total $(d100 + [\SPED])$ until pass or fail}
 
-\noindent For \SPEDful\ checks you'll roll for successes against an ever-building threshold until you reach the target \textit{number of successes} or you \textit{fail}.
+\noindent For \SPEDful\ checks you'll roll for successes against an ever-building Threshold until you reach the target \textit{number of successes} or you \textit{fail}.
 
-\noindent Roll a d100 and add {[}\SPED{]}. If the result is above the target then you succeed. If you succeed, start a running total with the result, add 10 to the target threshold, and repeat the process until either condition is met. With every subsequent success you'll add the result to the running total and add 10 to the threshold. 
+\noindent Roll a d100 and add {[}\SPED{]}. If the result is above the Threshold then you succeed. If you succeed, start a running total with the result, add 10 to the target threshold, and repeat the process until either condition is met. With every subsequent success you'll add the result to the running total and add 10 to the threshold. 
 \fillrlinemid
+\noindent Any time your action encompasses multiple smaller actions, you may execute a \SPED .
 
-\noindent Any time your action encompasses multiple smaller actions, you may roll a \SPED.
-
-\burstline{Permanently gain an addtional free reroll upon \SPED\ failures.}
+\burstline{Permanently gain an additional free reroll upon \SPED\ failures.}
 
 % Foresight ------------------------------
-\subsection{\FOREful\ {[}\FORE\index{\attribute!\FOREful}{]}}
+\subsection{\FOREful\ {[}\FORE\index{\attribute!\FOREful}{]}}\label{subsec:esp}
 
 \equview{guess within $\pm[\FORE]$ against the opposing roll}
 
-\noindent For \FOREful\ checks you're guessing what the opposing roll will be with a buffer of $\pm \frac{1}{2}$ your \FORE .
+\noindent For \FOREful\ checks you're guessing what the opposing roll will be with a buffer of $\pm \frac{1}{2}$ your {[}\FORE{]}.
 
 \noindent Before an opposing roll, you may conduct \FORE. You succeed if the roll is within the range of $(guess - \frac{1}{2}[\FORE])$ and $(guess + \frac{1}{2}[\FORE])$.
 \fillrlinemid
-\noindent Any time your character attempts to predict or react to external stimuli, roll \FORE.
+\noindent Any time your character attempts to predict or react to external stimuli, you may execute a \FORE.
 
 \burstline{Pick an additional number to guess for each level of \FORE\ \BURST.}
 
 % Start Abilities
-\chapter{Abilities\index{Abilities}: \skill s and \techn s}
+\chapter{Abilities\index{Abilities}: \skill s and \techn s}\label{ch:skills_and_tech}
 
-Abitites are extra modifiers for your \attribute s during various situations. Generally they will work by replacing $[XXX]$ with $([XXX]+[Ability])$ in XXXs' formula. There are 3 categories for abilities: \skill s, \techn s, and \AWEAWF.
+Abitites are extra modifiers for your \attribute s during various situations. Generally they will work by replacing $[XXX]$ with $([XXX]+[Ability])$ in the usage formula. There are 3 categories for abilities: \skill s, \techn s, and \AWEAWF.
 
-\section{\skill s\index{\skill s}}
+\section{\skill s\index{\skill s}}\label{sec:skills}
 
-\skill s represent your general knowledge of things, and provide bonus(es) specifically to your \KNOW\ challenges. Their bonus is directly equal to the amount of \skill\ Points (\skillval) allocated to them. They affect the formula as so:
+\skill s represent your general knowledge of all things, and provide bonus(es) specifically to your \KNOW\ challenges. Their bonus is directly equal to the amount of \skill\ Points (\skillval) allocated to them. They affect the formula as so:
 
 \equview{$d100 + ([\KNOW]+[\skill])$}
 
@@ -128,39 +126,39 @@ As an example, if your character has a {[}\KNOW{]} of 20 and a Knitting \skill\ 
 
 \newplayr{\skill s are used to perform a variety of quick tasks and can flesh out your character's past, present, and future. Before using \techn s, make sure you understand \skill s first.}
 
-\section{\techn s\index{\techn}}
+\section{\techn s\index{\techn}}\label{sec:techniques}
 
 \techn s are advanced maneuvers representing specific uses of \attribute s during challenges. Unlike \skill s these are not automatic boosts and cost \ENful\ to use; starting at 10 \EN\ and increasing by 5 \EN\ per \advancement\ (\advanmini). 
 
 Initially the calculations will proceed much like \skill s with the formula changing to $([technique]+[attribute])$ in the place of $[attribute]$, however as they are upgraded with \advanmini\ they can receive new effects.
 
-\newplayr{Typically \techn s will generally be used in character vs character challenges, but they can be used wherever applicable-- even in normal challenges!}
+\newplayr{Typically \techn s will generally be used in character vs character challenges, but they can be used wherever applicable-- even in obstacle challenges!}
 
 %Awesome / Awful 
-\section{\AWEAWF\index{AWESOME}\index{AWFUL}}
+\section{\AWEAWF\index{AWESOME}\index{AWFUL}}\label{sec:aweawf}
 
-\AWEAWF\ (A/A) abilities represent a character's fringe expertise- the areas that they are the best and the worst in. \AWE\ abilites create an additional ability with a value of \emph{+50}, where \AWF\ abilities will create an additional ability with the value of \emph{-50}. Additionally, due to the increased risk, when an \AWF\ ability is rolled the player will earn 1 Cool Token.\footnote{Cool, x.x.x}. 
+\AWEAWF\ (A/A) abilities represent a character's fringe expertise- the areas that they are the best and the worst in. \AWE\ abilites create an additional ability with a value of \emph{+50}, where \AWF\ abilities will create an additional ability with the value of \emph{-50}. Additionally, due to the increased risk, when an \AWF\ ability is rolled the player will earn 1 Cool Token.\footnoteref{sec:cool_tokens}. 
 
-\newplayr{There may be situations in which your Skill or technique is a negative number. This acts the same as when it is a positive number but you subtract instead of add. You are, afterall, adding a negative number.}
+\newplayr{There may be situations in which your \skill\ or \techn\ is a negative number. This acts the same as when it is a positive number but you subtract instead of add. You are, afterall, adding a negative number.}
 
-\notetoGM{This may seem like a free bonus, but to make your campaign(s)\footnote{Campaigns, x.x.x} more interesting I recommend you, or even the player, put the character in \AWEAWF\ situations.}
+\notetoGM{This may seem like a free bonus, but to make your campaign(s)\footnoteref{subsec:campaigns} more interesting I recommend you, or even the player, try to put the character in \AWEAWF\ situations.}
 
 % Character Development ------------------------------------------------------
-\chapter{Character Development}
+\chapter{Character Development}\label{ch:char_develop}
 Characters will always be developing as they're used and can undergo lasting changes at the end of, or even sometimes during, a session.
 
-\section{\advancement\index{\advancement}}
+\section{\advancement\index{\advancement}}\label{sec:advancement}
 The GM may give players the opportunity to advance one \attribute\ and/or ability
 
-\subsection{\attribute s}
-When given the opportunity, you can pick an \attribute\ you used during this session and roll a d10. The \attribute\ is increase by a number of \attrval\ equal to the number rolled.
+\subsection{Earning \attribute\ Points}\label{subsec:adv_techniques}
+When given the opportunity, you can pick an \attribute\ you used during this session and roll a d10. The \attribute\ is increased by a number of \attrval\ equal to the number rolled.
 
-\subsection{Ability \advancement}
+\subsection{Ability \advancement}\label{subsec:adv_ability}
 When given the opportunity, you may choose to either advance an existing ability or add a new one.
-\section{Injuries \& Enhancements}
-You will experience physical, mental, and spiritual changes on your journey. I recommend keeping track of these over the campaign
+\section{Injuries \& Enhancements}\label{sec:adv_injuries}
+You will experience physical, mental, and spiritual changes on your journey. I recommend keeping track of these over the campaign.
 
-\section{Possessions}
-You will acquire a lot of artifacts, equipment, and trinkets over your journey. (author's note: right now it's all one area. I'm considering segmenting based on playtesting)
+\section{Possessions}\label{sec:possessions}
+You will acquire a lot of artifacts, equipment, and trinkets over your journey. (author's note: right now it's all one area. I'm considering segmenting based on playtesting)(editor's note: we may need to reorganize a bit at some point yes)
 
-\section{Persons, Places, \& Things of Interest}
+\section{Persons, Places, \& Things of Interest}\label{sec:interests}
