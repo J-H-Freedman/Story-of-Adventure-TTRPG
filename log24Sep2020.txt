@@ -2,7 +2,12 @@
 |                             General Doc Changes                             |
 +-----------------------------------------------------------------------------+
 
-+ Nothing major this time. Mostly spelling errors in the main_preamble.
++ New labels
+sec:actions
+subsec:act_standard
+subsec:act_unique
+subsec:act_double
+
 
 +-----------------------------------------------------------------------------+
 |                               BasicMechanics                                |
@@ -23,4 +28,4 @@ XXX refers to the process and [XXX] refers to the actual value.
 + Tweaked the opening line of the Knowledge section to sound a bit
 less redundant
 
-+ Seperated attributes into page view to be expanded on further later on.
++ Seperated attributes into page view to be expanded on later.
