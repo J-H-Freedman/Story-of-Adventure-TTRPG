@@ -43,9 +43,7 @@ The notation for this section is as follows:
 
 % Knowledge ------------------------
 \subsection{\KNOWful\ {[}\KNOW\index{\attribute!\KNOWful}{]}}\label{subsec:kno}
-
 \equview{$d100 + [\KNOW]$}
-
 \noindent For \KNOWful\ checks you want your total to be \textit{above} as high as possible.
 \noindent Roll a d100 and add {[}\KNOW{]} to the amount. If it's above the Threshold then you pass, and if not then you fail.
 \fillrlinemid
@@ -53,24 +51,20 @@ The notation for this section is as follows:
 Additionally, {[}\KNOW{]} itself is added directly to your \skill\ checks.\footnoteref{sec:skills}
 
 \burstline{Allocate 100 \skill\ Points\footnoteref{sec:skills} into your existing \skill (s) however you please.}
-
+\clearpage
 % Power ----------------------------
 \subsection{\POWEful\ {[}\POWE\index{\attribute!\POWEful}{]}}\label{subsec:pow}
-
 \equview{$d100_{1}+d100_{2}+2([\POWE])$}
-
 \noindent For \POWEful\ checks you want to try to roll the biggest, and we mean \emph{BIGGEST}, total possible.
 \noindent Roll 2 d100s and add {[}\POWE{]} to each result. In pass or fail situations, if it is above the Threshold then you succeed.
 \fillrlinemid
 \noindent A \POWE\ may be utilized for most \emph{Double} actions
 
 \burstline{Permanently increase the \POWE\ multiplier by 1 (e.g. $2\rightarrow3$).}
-
+\clearpage
 % Endurance-------------------------
 \subsection{\ENDUful\ {[}\ENDU\index{\attribute!\ENDUful}{]}}\label{subsec:end}
-
 \equview{$(d100 \pm [\ENDU])  \divideontimes\ $ turns until pass or fail}
-
 \noindent For \ENDUful\ checks your rolls will add to a running total that proceeds towards specific \emph{thresholds}.
 
 \noindent Every turn of an \ENDU\ check begins with a d100 roll, but it proceeds differently depending on if you're \emph{storing} or \emph{spending} an amount:
@@ -84,12 +78,10 @@ Additionally, {[}\KNOW{]} itself is added directly to your \skill\ checks.\footn
 \burstline{Permanently increase the \emph{turn} multiplier by 1. This means you roll an additional action for \emph{storing} and skip an additional action for \emph{spending.}}
 
 \noindent \newplayr{Generally speaking, storing to your total will produce positive effects in later turns so you'll want to try to build this as quickly as possible. Conversely, spending from your total will generally block undesirable effects so you'll want to keep this as low as possible.}
-
+\clearpage
 % Speed ----------------------------------
 \subsection{\SPEDful\ {[}\SPED\index{\attribute!\SPEDful}{]}}\label{subsec:spd}
-
 \equview{total $(d100 + [\SPED])$ until pass or fail}
-
 \noindent For \SPEDful\ checks you'll roll for successes against an ever-building Threshold until you reach the target \textit{number of successes} or you \textit{fail}.
 
 \noindent Roll a d100 and add {[}\SPED{]}. If the result is above the Threshold then you succeed. If you succeed, start a running total with the result, add 10 to the target threshold, and repeat the process until either condition is met. With every subsequent success you'll add the result to the running total and add 10 to the threshold. 
@@ -97,12 +89,10 @@ Additionally, {[}\KNOW{]} itself is added directly to your \skill\ checks.\footn
 \noindent Any time your action encompasses multiple smaller actions, you may execute a \SPED .
 
 \burstline{Permanently gain an additional free reroll upon \SPED\ failures.}
-
+\clearpage
 % Foresight ------------------------------
 \subsection{\FOREful\ {[}\FORE\index{\attribute!\FOREful}{]}}\label{subsec:esp}
-
 \equview{guess within $\pm[\FORE]$ against the opposing roll}
-
 \noindent For \FOREful\ checks you're guessing what the opposing roll will be with a buffer of $\pm \frac{1}{2}$ your {[}\FORE{]}.
 
 \noindent Before an opposing roll, you may conduct \FORE. You succeed if the roll is within the range of $(guess - \frac{1}{2}[\FORE])$ and $(guess + \frac{1}{2}[\FORE])$.
@@ -110,24 +100,18 @@ Additionally, {[}\KNOW{]} itself is added directly to your \skill\ checks.\footn
 \noindent Any time your character attempts to predict or react to external stimuli, you may execute a \FORE.
 
 \burstline{Pick an additional number to guess for each level of \FORE\ \BURST.}
-
+\clearpage
 % Start Abilities
 \chapter{Abilities\index{Abilities}: \skill s and \techn s}\label{ch:skills_and_tech}
-
 Abitites are extra modifiers for your \attribute s during various situations. Generally they will work by replacing $[XXX]$ with $([XXX]+[Ability])$ in the usage formula. There are 3 categories for abilities: \skill s, \techn s, and \AWEAWF.
 
 \section{\skill s\index{\skill s}}\label{sec:skills}
-
 \skill s represent your general knowledge of all things, and provide bonus(es) specifically to your \KNOW\ challenges. Their bonus is directly equal to the amount of \skill\ Points (\skillval) allocated to them. They affect the formula as so:
-
 \equview{$d100 + ([\KNOW]+[\skill])$}
-
 As an example, if your character has a {[}\KNOW{]} of 20 and a Knitting \skill\ of 37; then in a Knitting challenge, you will add your d100 roll to \textbf{57} instead of 20 to calculate the result.
-
 \newplayr{\skill s are used to perform a variety of quick tasks and can flesh out your character's past, present, and future. Before using \techn s, make sure you understand \skill s first.}
 
 \section{\techn s\index{\techn}}\label{sec:techniques}
-
 \techn s are advanced maneuvers representing specific uses of \attribute s during challenges. Unlike \skill s these are not automatic boosts and cost \ENful\ to use; starting at 10 \EN\ and increasing by 5 \EN\ per \advancement\ (\advanmini). 
 
 Initially the calculations will proceed much like \skill s with the formula changing to $([technique]+[attribute])$ in the place of $[attribute]$, however as they are upgraded with \advanmini\ they can receive new effects.
@@ -136,7 +120,6 @@ Initially the calculations will proceed much like \skill s with the formula chan
 
 %Awesome / Awful 
 \section{\AWEAWF\index{AWESOME}\index{AWFUL}}\label{sec:aweawf}
-
 \AWEAWF\ (A/A) abilities represent a character's fringe expertise- the areas that they are the best and the worst in. \AWE\ abilites create an additional ability with a value of \emph{+50}, where \AWF\ abilities will create an additional ability with the value of \emph{-50}. Additionally, due to the increased risk, when an \AWF\ ability is rolled the player will earn 1 Cool Token.\footnoteref{sec:cool_tokens}. 
 
 \newplayr{There may be situations in which your \skill\ or \techn\ is a negative number. This acts the same as when it is a positive number but you subtract instead of add. You are, afterall, adding a negative number.}
