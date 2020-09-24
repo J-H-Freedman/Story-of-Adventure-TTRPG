@@ -37,6 +37,7 @@ sec:hp -> Health
 sec:energy -> Energy
 sec:attributes -> Attributes
 sec:attr_usage -> Attribute Usage
+sec:actions -> Actions
 sec:skills -> Skills
 sec:techniques -> Techniques
 sec:aweawf -> Awesome/Awful
@@ -53,6 +54,7 @@ sec:unions_guilds -> Unions & Guilds
 sec:ecosystem -> Ecosystems
 sec:economy -> Economy
 
+
 subsec:sessions -> Session
 subsec:campaigns -> Campaign
 subsec:one_off -> One-Off
@@ -67,6 +69,9 @@ subsec:death -> Death
 subsec:tech_resources -> Technique Resources
 subsec:exhaustion -> Overexertion
 subsec:pass_out -> Passing Out
+subsec:act_standard -> Standard Actions
+subsec:act_unique -> Unique Actions
+subsec:act_double -> Double Actions
 subsec:attr_points -> Attribute Enhancement and AP
 subsec:BURST -> BURST
 subsec:notation -> Notation
