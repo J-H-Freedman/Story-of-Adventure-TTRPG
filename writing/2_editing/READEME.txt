@@ -1,0 +1,4 @@
+Edit the file here for errors and style.
+
+When the document is ready to be put into the Doc, place in the third folder.
+
