@@ -56,10 +56,24 @@
         \end{figure}
 }
 
-%%% burstline 1: Text
-%%% Adds a small callout to the beginning of the line to make the BURST boost seem more important and exciting
-\def\burstline#1{\noindent \vdots\ {\large \BURST} \vdots\ #1}
 
 %%% footnoteref 1: label
 %%% Adds a page number reference in the foot notes based on the passed label.
 \def\footnoteref#1{\footnote{\nameref{#1}, pg. \pageref{#1}}}
+
+%% Attribute Section Formatting ----------
+%%% calloutline 1: callout ID 2: text
+%%% Adds a small callout to the beginning of the line for ease-of-reading
+\def\calloutline#1#2{\noindent \vdots\ {\large #1} \vdots\ #2}
+
+
+%%% vsObstacle/vsCharacter 1: Text
+%%% Adds a small callout to the beginning of the line to better segregate conditions for each situation
+\def\vsObstacle#1{\calloutline{vs Obstacle}{#1}}
+\def\vsCharacter#1{\calloutline{vs Character}{#1}}
+
+%%% burstline 1: Text
+%%% Adds a small callout to the beginning of the line to make the BURST boost seem more important and exciting
+\def\burstline#1{\calloutline{\BURST}{#1}}
+
+

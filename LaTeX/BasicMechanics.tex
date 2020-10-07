@@ -9,68 +9,54 @@ to help you in this goal: dice rolls, attribute effects \& modifiers,
 and skills/techniques. 
 
 \section{The Total}\label{sec:thetotal}
-Challenges are vast and varied in the world of \gametitlemini\ ,but regardless of whether you're fighting a mobster demi-god, sweaving around asteroid-belt ring worms, or painting a fence your outcome is ruled by \emph{The Total}. This all-deciding number is result of all possible rolls, modifiers, and any other ancillary variables that have some influence in the situation at hand. Regardless of who you are, or think you are, how high or low \emph{The Total} is will determine if you pass or fail.
+Challenges are vast and varied in the world of \gametitlemini\ , but regardless of whether you're fighting a mobster demi-god, sweaving around asteroid-belt ring worms, or painting a fence your outcome proceeds based on \emph{The Total}. \emph{The Total} is result of all possible rolls, modifiers, and any other ancillary variables that have some influence in the situation at hand. In general it is an overall measurement of how well you did given the circumstances of the challenge, and influences everything from baseline success to damage calculation.
+
+\subsection{Determined Threshold\index{Determined Threshold}}\label{subsec:determined_threshold}
+The \emph{Determined Threshold}, sometimes just referred as the \emph{Threshold}, is a baseline that must be met or surpassed for success in the given challenge. In general the higher the number, the more difficult the challenge is both thematically and mechanically. There are many \emph{Threshold}s variations, but they will always be a measurement of something within the challenge such the number of successes, the overall total, or even the number of failures. Depending on the challenge faced the \emph{Threshold} can be set by the GM or by another character's actions.
+
+\newplayr{The GM may or may not tell you what exactly this threshold is.}
+\notetoGM{Sharing this information may create tangable tension, but hiding it should be flat out scary. Pick your moments well.}
+
 
 \section{Success, Pass, \& Fail}\label{sec:success}
 An important semantic to define is \emph{Succeed} vs \emph{Pass}:
 
 \begin{itemize}
-\item Success\index{Challenges!Success} \vdots\ \emph{The Total} meets one instance of the requirements of the Challenge.
-\item Pass\index{Challenges!Pass} \vdots\ The Challenge itself is completed and the result is positive.
-\item Fail\index{Challenges!Fail} \vdots\ The total does \emph{not} meet the requirements of the challenge and the result is neutral or negative.
+\item Success\index{Challenges!Success} \vdots\ One instance of the requirements of the Challenge has been met.
+\item Pass\index{Challenges!Pass} \vdots\ The Challenge is completed and the result is in your favor.
+\item Fail\index{Challenges!Fail} \vdots\ The Challenge is completed and the result is not in your favor.
 \end{itemize}
-Most of the challenges you will encounter require only one success to pass. However some challenges will require multiple successes or will result in a binary succeed/fail instead of counting the degree.
+In most Challenges meeting the \emph{Threshold} requirements will allow you to pass, but sometimes the overall result will also be altered by the \emph{Degree} between the totals of those taking part.   
 
 \notetoGM{Not every fail needs to result in disaster. Neutral results can also occur when you try to do something and fail.}
 
+
 \subsection{Degree of Success and Failure (DSF)\index{Degree}}\label{subsec:dsf}
 In all cases that do not result in a tie (i.e. most of them) you will
-succeed or fail by an amount referred to as its \emph{Degree}. 
+pass or fail by an amount referred to as its \emph{Degree}. 
 
-\equview{$Higher Total - Lower Total = Degree$}
+\equview{$Initiator Total - Defender Total = Degree$}
 
 \emph{Degrees} can be used intuitively to interpret specific results from
 a binary pass or fail state, and can also be used as a variable to be used in further calculations
 (e.g. Damage\footnoteref{subsec:damage_calc}).
 
+\subsection{Damage\index{Damage} Calculation}\label{subsec:damage_calc}
+If a challenge deals \emph{damage} it is calculated by the DSF\footnoteref{subsec:dsf} from that challenge. Once calculated, it will then be distributed to the receiver's \HPful\ and \ENful\ as necessary. Players will generally be able to distribute their damage between \HPful\ and \ENful\ as they see fit, however some situations may force all of the damage onto one or the other without compromise.\footnoteref{subsec:damage_types} 
+
 \subsection{In Case of a Tie\index{Challenges!Tie}}\label{subsec:tie}
 A tie. An event that is only spoken of through whispers. The appearance of a realm of sheer impossibility in which neither success nor failure can exist. The brief moment that it breaches the mortal plane is enough to send ripples throughout the galaxy, shifting environments and worldviews alike. It is a curiously benevolent impossibility, as all those who witnessed a tie found themselves receiving 1 Cool Token\footnoteref{sec:cool_tokens}.
 
-% Obstacle Challenge
+% Challenges
 \section{Character vs Obstacle\index{Challenges!Obstacle Challenge}}\label{sec:vs_obstacle}
-These are the most common kinds in TTRPGs. They are generally non-combat
-related and can range from climbing a fence to painting a fence to
-breaking a fence. 
-
-These are \emph{Obstacle Challenges} and are tied to your \attribute s.\footnoteref{ch:char_attributes}
-These typically involve you rolling over a determined threshold decided
-by the GM. They may be treated as either a binary pass or fail or be
-treated with degrees of success or failure.
-
-\subsection{Determined Threshold\index{Determined Threshold}}\label{subsec:determined_threshold}
-When the GM requests that you complete an Obstacle Challenge they
-usually have a number in mind that must be met or surpassed. This
-is the \emph{Determined Threshold}-- sometimes just referred as the \emph{Threshold}. The higher the number, the more
-difficult the challenge is. Other variations can include a Determined
-Threshold of Successes\index{Determined Threshold!of Successes} in
-which you must succeed a number of times to pass.
-
-\newplayr{The GM may or may not tell you what exactly this threshold is.}
-\notetoGM{Sharing this information may create tangable tension, but hiding it should be flat out scary. Pick your moments well.}
+\emph{Obstacle Challenges} are initiated between your character and something that is relatively non-sentient. These are generally the most basic challenge that will be encountered, and in most cases will be decided by whether the applicable \attribute\ check passes or fails. The threshold, total, and any other applicable number for an \emph{Obstacle Challenge} is determined directly by the GM.
 
 % Character VS Character Challenge
 \section{Character vs Character}\label{sec:vs_character}
-\subsection{Damage\index{Damage} Calculation}\label{subsec:damage_calc}
-\emph{Damage} is calculated by the DSF\footnoteref{subsec:dsf} from
-the given challenge. Once calculated, it will then be distributed
-to \HPful\ and \ENful\ as necessary. Players will generally be able
-to distribute their damage between \HPful\ and \ENful\ as they see
-fit, however some situations may force all of the damage onto one
-or the other without compromise.\footnoteref{subsec:damage_types} 
-\notetoGM{\emph{Direct Damage}\index{Direct Damage} can create contexts in which the result will go directly to \HPful\, but I recommend those to be few and far between. Pick your moments. Make your players shudder.}
+\emph{Character Challenges} are initiated between one to many characters. They can be more involved than \emph{Obstacle Challenges}, and will generally take place during encounters. In \emph{Character Challenges} one character acts as an initiator and proceeds with an \attribute\ check to form a total and/or threshold that the other characters need to meet or defend against with an \attribute\ check of their own. 
 
 \section{Cool Tokens\index{Cool Tokens}}\label{sec:cool_tokens}
-\emph{Cool Tokens} are an elusive trinket that, when exchanged, grant you a \emph{second} d100 to be used in your upcoming challenge. Both d100s will be rolled for that challenge, and you'll be able to alter the results by choosing which d100 you want to use, or even both! The boons offered by Cool Tokens are great, but they have strict guidelines for usage. To spend a Cool Token you must announce it to the GM, and you also must not have started rolling for that challenge.
+\emph{Cool Tokens} are an elusive trinket that, when exchanged, grant you a \emph{alternate} d100 to be used in your upcoming challenge. Both d100s will be rolled for that challenge, and you'll be able to alter the results by choosing which d100 you want to use, or even both! The boons offered by Cool Tokens are great, but they have strict guidelines for usage. To spend a Cool Token you must announce it to the GM, and you also must not have started rolling for that challenge.
 
 Only the most daring will be able to earn Cool Tokens. While their awardance is at the GM's digression, generally those who make creative and...riskier plays will find themselves with a Cool Token in hand. It ultimately is a reward for players who think outside the box, and can be given by the GM when they feel like it will make the story better.
 
@@ -121,7 +107,7 @@ When you pass out, you may not act in any way until rested or healed.
 only the most evil character would spitefully do such an act.}
 
 \chapter{Encounters}\label{ch:encounter}
-The structure of how events take place are usually unimportant but are still expected to occur frequently. Hierarchy is occurs as follows:
+Encounters are major, generally combat focused, events. The structure of how events take place are usually unimportant but are still expected to occur frequently. Encounters are organized as such:
 \begin{enumerate}
 	\item {\large Encounter}\index{Encounter} \linebreak\
 	This encapsulates the entire situation. \emph{Encounters} proceed over a predetermined or indefinite number of engagements known as \emph{Rounds}. An encounter ends when: 
@@ -138,21 +124,9 @@ The structure of how events take place are usually unimportant but are still exp
 \end{enumerate}
 
 \section{Actions}\label{sec:actions}
-Character \emph{Actions} encompass everything that they can do during encounters. Each character will generally only be able to take \emph{two} actions during their turn so it is important to know how they differ. There are three types of actions: Standard, Unique, and Double.
-\subsection{Standard Action\index{Action!Standard}}\label{subsec:act_standard}
-\emph{Standard Actions} are simple, easy-to-execute Actions that can be repeated multiple times in a turn. Standard Actions are as follows:
+Character \emph{Actions} encompass everything that they can do during encounters. Each character will generally only be able to take \emph{two} actions during their turn so it is important to know how they differ. Actions are as follows:
 \begin{itemize}
-	\item tbfi
-\end{itemize}
-\subsection{Unique Action\index{Action!Unique}}\label{subsec:act_unique} 
-\emph{Unique Actions} are difficult Actions that cannot be repeated multiple times per Turn. Unique Actions are as follows:
-\begin{itemize}
-	\item An END\footnoteref{subsec:end}, depending on the context of the situation.
-	\item tbfi
-\end{itemize} 
-\subsection{Double Action\index{Action!Double}}\label{subsec:act_double} 
-\emph{Double Actions} are tiring Actions that consumes that character's entire Turn. Double Actions are as follows:
-\begin{itemize}
-	\item An END, depending on the context of the situation.
-	\item A POW\footnoteref{subsec:pow} versus one character.
+	\item An \attribute\ check vs a character or obstacle within the encounter location. If the target is a character, they may execute a response \attribute\ check where applicable\footnoteref{sec:attr_usage}.
+	\item Charge an \attribute\ to temporarily increase its proficiency for the next action.
+	\item Execute a \techn\footnoteref{sec:techniques}. The target may perform a response \attribute\ check depending on the context.
 \end{itemize}

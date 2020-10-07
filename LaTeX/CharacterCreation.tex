@@ -20,13 +20,8 @@ Throughout your campaign(s) your \attribute s will be able to be enhanced by spe
 % Burst --------------------------
 \subsection{\BURST\index{\BURST}}\label{subsec:BURST}
 When an \attribute\ reaches \textbf{100}, it triggers a \BURST !
-This does a few things:
-\begin{itemize}
-\item Grants a permanent upgrade specific to the \attribute\ that triggered the \BURST .
-\item Grants a new \techn\ tied to the \attribute.
-\item Reduces the \attribute\ back down to \textbf{10}.
-\end{itemize}
-\newplayr{Despite the \attribute\ reduction, the upgrades from a \BURST\ are substantial and I recommend triggering a \BURST\ whenever possible. However! Moderation is important. Triggering too many at once could leave you in a tight spot so I also recommend keeping a few \attribute\ scores high until the others have recovered.}
+This surge of power permanently upgrades the character's proficiency with that \attribute , but the shock also reduce that \attribute\ down to \textbf{10}.
+\newplayr{Moderation is important! A \BURST\ can be a powerful upgrade, but triggering too many at once could leave you in a tight spot. I recommend keeping a few \attribute\ scores high until the others have recovered from the shock.}
 
 % Start Attribute Usage -------------------------
 \section{\attribute\ Usage}\label{sec:attr_usage}
@@ -35,28 +30,27 @@ As mentioned, your character's \attribute s are the core of everything that they
 \subsection*{Usage Notation}\label{subsec:notation}
 The notation for this section is as follows:
 \begin{itemize}
-	\item d100\index{d100} refers to a number from 1 -- 100. This can be from either two ten-sided dice rolled to create a number with a range of 100, a random number generator, or however you decide to generate it.
-	\item XXX refers to the \attribute\ 's process and everything that it entails.
+	\item d100\index{d100} refers to a number from 1 to 100. This can be from either two ten-sided dice rolled to create a number with a range of 100, a random number generator, or however you decide to generate it.
+	\item \textbf{XXX} refers to the \attribute\ 's process and everything that it entails.
 	\item {[}XXX{]} refers to the value of the \attribute\ itself.
 \end{itemize}
 \clearpage
 
 % Knowledge ------------------------
 \subsection{\KNOWful\ {[}\KNOW\index{\attribute!\KNOWful}{]}}\label{subsec:kno}
-\equview{$d100 + [\KNOW]$}
-\noindent For \KNOWful\ checks you want your total to be \textit{above} as high as possible.
-\noindent Roll a d100 and add {[}\KNOW{]} to the amount. If it's above the Threshold then you pass, and if not then you fail.
+\equview{$d100 + [\KNOW] + \skill $}
+\noindent For \KNOWful\ checks you want your total to be \textit{above} as high as possible to prove that you do \KNOW .
+\noindent Roll a d100 and add {[}\KNOW{]} as well as the scores of any applicable \skill s\footnoteref{sec:skills}. If your total is above the target threshold then you pass, otherwise you fail.
 \fillrlinemid
-\noindent Any time you would ask, ``Does my character know/notice...'' you may execute a \KNOW. 
-Additionally, {[}\KNOW{]} itself is added directly to your \skill\ checks.\footnoteref{sec:skills}
+\noindent Any time you would ask, ``Does my character know/notice...'' you may execute a \textbf{\KNOW} action. 
 
 \burstline{Allocate 100 \skill\ Points\footnoteref{sec:skills} into your existing \skill (s) however you please.}
 \clearpage
 % Power ----------------------------
 \subsection{\POWEful\ {[}\POWE\index{\attribute!\POWEful}{]}}\label{subsec:pow}
-\equview{$d100_{1}+d100_{2}+2([\POWE])$}
-\noindent For \POWEful\ checks you want to try to roll the biggest, and we mean \emph{BIGGEST}, total possible.
-\noindent Roll 2 d100s and add {[}\POWE{]} to each result. In pass or fail situations, if it is above the Threshold then you succeed.
+\equview{$(d100_{1} + {[}\POWE{]}) + (d100_{2} + {[}\POWE{]}) + ...$}
+\noindent For \POWEful\ checks you want to roll the biggest, and we mean \emph{BIGGEST}, total possible.
+\noindent Roll 2 d100s and add {[}\POWE{]} to each result to form your total. In pass or fail situations, if it is above the Threshold then you succeed.
 \fillrlinemid
 \noindent A \POWE\ may be utilized for most \emph{Double} actions
 

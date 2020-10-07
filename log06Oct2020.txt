@@ -1,0 +1,35 @@
+06 Oct 2020
++-----------------------------------------------------------------------------+
+|                             General Doc Changes                             |
++-----------------------------------------------------------------------------+
+
++ Added new format macros:
+\calloutline
+\vsObstacle
+\vsCharacter
+\burstline
+Descriptions of how they work are in the comments for 'doc_formats.tex'
+
++-----------------------------------------------------------------------------+
+|                               Basic Mechanics                               |
++-----------------------------------------------------------------------------+
++ Rewrote section on actions to reflect removal of double actionsa and that all 
+actions are single actions. Current actions are as follows:
+	- Attribute Check
+	- Attribute Charge
+	- Execute Technique
+
+Cooldown-based actions are in the pipeline, but will be added as we figure out 
+how the preceeding changes will work.
+
++ In the Challenges section I separated the Determined Threshold and Damage
+subsections into their own sections since they could potentially be part
+of either challenge type.
+
+* Started rewriting the attributes section. Knowledge changed slightly to 
+represent that its main scaler is skills. 
+
++-----------------------------------------------------------------------------+
+|                             Character Creation                              |
++-----------------------------------------------------------------------------+
+
