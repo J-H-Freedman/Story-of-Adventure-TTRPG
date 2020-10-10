@@ -25,7 +25,7 @@ This surge of power permanently upgrades the character's proficiency with that \
 
 % Start Attribute Usage -------------------------
 \section{\attribute\ Usage}\label{sec:attr_usage}
-As mentioned, your character's \attribute s are the core of everything that they do in \gametitle. Most, and possibly all, of your character's actions will involve forming a total using 1 or more \attribute . Each \attribute\ has its own method of being calculated as well as conditions for passing and failing\footnoteref{sec:success}. 
+Your character's \attribute s are the core of everything that they do in \gametitle. Most, and possibly all, of your character's actions will involve forming a total using 1 or more \attribute . Each \attribute\ has its own method of being calculated as well as conditions for passing and failing\footnoteref{sec:success}. 
 
 \subsection*{Usage Notation}\label{subsec:notation}
 The notation for this section is as follows:
@@ -39,61 +39,47 @@ The notation for this section is as follows:
 % Knowledge ------------------------
 \subsection{\KNOWful\ {[}\KNOW\index{\attribute!\KNOWful}{]}}\label{subsec:kno}
 \equview{$d100 + [\KNOW] + \skill $}
-\noindent For \KNOWful\ checks you want your total to be \textit{above} as high as possible to prove that you do \KNOW .
-\noindent Roll a d100 and add {[}\KNOW{]} as well as the scores of any applicable \skill s\footnoteref{sec:skills}. If your total is above the target threshold then you pass, otherwise you fail.
-\fillrlinemid
-\noindent Any time you would ask, ``Does my character know/notice...'' you may execute a \textbf{\KNOW} action. 
-
-\burstline{Allocate 100 \skill\ Points\footnoteref{sec:skills} into your existing \skill (s) however you please.}
+\attrlineIntro{Use all of the \skill s that you know to form a total}\attrlineHow{Roll a d100 and add {[}\KNOW{]} as well as the scores of \textbf{all} \skill s\footnoteref{sec:skills} applicable to the challenge. If your total is above the target threshold then you pass, otherwise you fail.}
+\attrlineWhere{Any time your character attempts to understand something or you would otherwise ask, ``Does my character know/notice...'' you may execute a \textbf{\KNOW} action.}
+\burstline{Unlike the other \attribute s, \KNOW does not scale directly with your \BURST\ rank. Instead, after a \BURST\ is triggered, add 100 \skill\ Points\footnoteref{sec:skills} into your existing \skill (s) however you wish.}
 \clearpage
+
 % Power ----------------------------
 \subsection{\POWEful\ {[}\POWE\index{\attribute!\POWEful}{]}}\label{subsec:pow}
 \equview{$(d100_{1} + {[}\POWE{]}) + (d100_{2} + {[}\POWE{]}) + ...$}
-\noindent For \POWEful\ checks you want to roll the biggest, and we mean \emph{BIGGEST}, total possible.
-\noindent Roll 2 d100s and add {[}\POWE{]} to each result to form your total. In pass or fail situations, if it is above the Threshold then you succeed.
-\fillrlinemid
-\noindent A \POWE\ may be utilized for most \emph{Double} actions
-
-\burstline{Permanently increase the \POWE\ multiplier by 1 (e.g. $2\rightarrow3$).}
+\attrlineIntro{Break through by building the biggest total possible from a set amount of rolls}
+\attrlineHow{Roll 2 d100s, add {[}\POWE{]} to each result, and then add them together.}
+\attrlineWhere{Any time your character attempts an above average feat of strength (e.g. striking, imparting a telekinetic force, lifting something) you may execute a \textbf{\POWE} action.}
+\burstline{Roll a number of additional d100s equal to your \BURST\ rank. Add {[}\POWE{]} to each roll and add them to your total.}
 \clearpage
+
 % Endurance-------------------------
 \subsection{\ENDUful\ {[}\ENDU\index{\attribute!\ENDUful}{]}}\label{subsec:end}
-\equview{$(d100 \pm [\ENDU])  \divideontimes\ $ turns until pass or fail}
-\noindent For \ENDUful\ checks your rolls will add to a running total that proceeds towards specific \emph{thresholds}.
-
-\noindent Every turn of an \ENDU\ check begins with a d100 roll, but it proceeds differently depending on if you're \emph{storing} or \emph{spending} an amount:
-\begin{itemize}
-	\item If the amount is to be \emph{stored} to your total for the next turn(s), add {[}\ENDU{]} to the roll and the result to the total. The desired effect occurs \emph{when} the \textit{storing} threhsold is reached.
-	\item If the amount is to be \emph{spent} from your total from the previous turn(s), subtract {[}\ENDU{]} from the roll and the result from the total. The desired effect occurs \emph{until} the \textit{spending} threshold is reached.
-\end{itemize}
-\fillrlinemid
-\noindent Any time your action would take multiple turns, you may run an \ENDU. Depending on context, an \ENDU\  may either be a \emph{Unique} action or a \emph{Double} action.
-
-\burstline{Permanently increase the \emph{turn} multiplier by 1. This means you roll an additional action for \emph{storing} and skip an additional action for \emph{spending.}}
-
-\noindent \newplayr{Generally speaking, storing to your total will produce positive effects in later turns so you'll want to try to build this as quickly as possible. Conversely, spending from your total will generally block undesirable effects so you'll want to keep this as low as possible.}
+\equview{$(d100 + [\ENDU]) + Target\ d100_1 + Target\ d100_2$}
+\attrlineIntro{Brace and mitigate the opposing total by absorbing rolls}
+\attrlineHow{Roll a d100 and add your {[}\ENDU{]}. Then take 2 of the lowest opposing d100 rolls and add them to your total.} 
+\attrlineWhere{Any time that your character needs to brace themselves against something, focus, or otherwise endure the effects of something you may execute a \textbf{\ENDU} action.} 
+\burstline{Take an additional number of d100s equal to your \BURST\ rank from the opposing total.}
 \clearpage
+
 % Speed ----------------------------------
 \subsection{\SPEDful\ {[}\SPED\index{\attribute!\SPEDful}{]}}\label{subsec:spd}
 \equview{total $(d100 + [\SPED])$ until pass or fail}
-\noindent For \SPEDful\ checks you'll roll for successes against an ever-building Threshold until you reach the target \textit{number of successes} or you \textit{fail}.
-
-\noindent Roll a d100 and add {[}\SPED{]}. If the result is above the Threshold then you succeed. If you succeed, start a running total with the result, add 10 to the target threshold, and repeat the process until either condition is met. With every subsequent success you'll add the result to the running total and add 10 to the threshold. 
-\fillrlinemid
-\noindent Any time your action encompasses multiple smaller actions, you may execute a \SPED .
-
-\burstline{Permanently gain an additional free reroll upon \SPED\ failures.}
+\attrlineIntro{Throw caution to the wind and blitz forward to build a total with as many rolls as you can make}
+\attrlineHow{Before rolling starts a threshold is determined by the GM. Afterwards roll 2 d100s, and for every roll that is above the threshold, add that roll and your {[}\SPED{]} to the total. Any d100s that are below the threshold are removed, and then the process repeats with the remaining d100s. The process is repeated until a target threshold is reached, or you run out of d100s.}
+\attrlineWhere{Any time your character is attempting to do something abnormally fast (e.g. a quick getaway, a rapid series of blows, hastily typing something) you may execute a \textbf{\SPED} action.} 
+\burstline{Roll an additional number of d100s equal to your \BURST\ rank.}
 \clearpage
+
 % Foresight ------------------------------
 \subsection{\FOREful\ {[}\FORE\index{\attribute!\FOREful}{]}}\label{subsec:esp}
-\equview{guess within $\pm[\FORE]$ against the opposing roll}
-\noindent For \FOREful\ checks you're guessing what the opposing roll will be with a buffer of $\pm \frac{1}{2}$ your {[}\FORE{]}.
+\equview{guess within $[\FORE]$ against the opposing roll}
+\attrlineIntro{Predict what an opposing total will be to reverse a portion of it back to the user}
 
-\noindent Before an opposing roll, you may conduct \FORE. You succeed if the roll is within the range of $(guess - \frac{1}{2}[\FORE])$ and $(guess + \frac{1}{2}[\FORE])$.
-\fillrlinemid
-\noindent Any time your character attempts to predict or react to external stimuli, you may execute a \FORE.
+\attrlineHow{Before an opposing action, you declare what you predict the resulting total will be. You don't roll at all, and your starting total is what you guess. If the distance between your guess, and their total is less than your {[}\FORE{]} then you may steal their highest roll and add it to your total.\linebreak In \textsl{Character vs Obstacle}\footnoteref{sec:vs_obstacle} challenges the GM will announce an amount of d100s that you will need to guess the sum of.\linebreak In \textsl{Character vs Character}\footnoteref{sec:vs_character} challenges you will need to guess what the total of their action will be.}
+\attrlineWhere{Any time your character is using their intuition to sense or predict something (e.g. where an attack is coming from, breaking something's disguise, the weather) you may execute an \textbf{\FORE} action.}
 
-\burstline{Pick an additional number to guess for each level of \FORE\ \BURST.}
+\burstline{Increase the number of guesses by your \BURST\ rank, and steal the next highest d100 roll per successful guess. Your starting total is the highest of your guesses.}
 \clearpage
 % Start Abilities
 \chapter{Abilities\index{Abilities}: \skill s and \techn s}\label{ch:skills_and_tech}
@@ -106,15 +92,13 @@ As an example, if your character has a {[}\KNOW{]} of 20 and a Knitting \skill\ 
 \newplayr{\skill s are used to perform a variety of quick tasks and can flesh out your character's past, present, and future. Before using \techn s, make sure you understand \skill s first.}
 
 \section{\techn s\index{\techn}}\label{sec:techniques}
-\techn s are advanced maneuvers representing specific uses of \attribute s during challenges. Unlike \skill s these are not automatic boosts and cost \ENful\ to use; starting at 10 \EN\ and increasing by 5 \EN\ per \advancement\ (\advanmini). 
-
-Initially the calculations will proceed much like \skill s with the formula changing to $([technique]+[attribute])$ in the place of $[attribute]$, however as they are upgraded with \advanmini\ they can receive new effects.
+\techn s are advanced maneuvers representing specific uses of \attribute s during challenges. Each \techn\ is tied to a specific \attribute\ action, and the actions are processed as normal. However each \techn\ also has its own rules to follow, and will add new conditional boosts or effects depending on various factors of your action. Unlike \skill s these are not automatic boosts and cost \ENful\ to use; starting at 10 \EN\ and increasing by 5 \EN\ per \advancement\ (\advanmini). 
 
 \newplayr{Typically \techn s will generally be used in character vs character challenges, but they can be used wherever applicable-- even in obstacle challenges!}
 
 %Awesome / Awful 
 \section{\AWEAWF\index{AWESOME}\index{AWFUL}}\label{sec:aweawf}
-\AWEAWF\ (A/A) abilities represent a character's fringe expertise- the areas that they are the best and the worst in. \AWE\ abilites create an additional ability with a value of \emph{+50}, where \AWF\ abilities will create an additional ability with the value of \emph{-50}. Additionally, due to the increased risk, when an \AWF\ ability is rolled the player will earn 1 Cool Token.\footnoteref{sec:cool_tokens}. 
+\AWEAWF\ (A/A) abilities represent a character's fringe expertise-- the areas that they are the best and the worst in. \AWEAWF\ abilites are action-wide scenario boosts. In an action where the character's \AWE\ ability is applicable add \emph{50} to that \attribute , and conversely subtract \emph{50} when an \AWF\ ability is applicable. Due to the increased risk, when an \AWF\ ability is rolled the player will earn 1 Cool Token.\footnoteref{sec:cool_tokens}. 
 
 \newplayr{There may be situations in which your \skill\ or \techn\ is a negative number. This acts the same as when it is a positive number but you subtract instead of add. You are, afterall, adding a negative number.}
 
@@ -132,6 +116,7 @@ When given the opportunity, you can pick an \attribute\ you used during this ses
 
 \subsection{Ability \advancement}\label{subsec:adv_ability}
 When given the opportunity, you may choose to either advance an existing ability or add a new one.
+
 \section{Injuries \& Enhancements}\label{sec:adv_injuries}
 You will experience physical, mental, and spiritual changes on your journey. I recommend keeping track of these over the campaign.
 
@@ -139,3 +124,4 @@ You will experience physical, mental, and spiritual changes on your journey. I r
 You will acquire a lot of artifacts, equipment, and trinkets over your journey. (author's note: right now it's all one area. I'm considering segmenting based on playtesting)(editor's note: we may need to reorganize a bit at some point yes)
 
 \section{Persons, Places, \& Things of Interest}\label{sec:interests}
+	

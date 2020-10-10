@@ -64,8 +64,15 @@
 %% Attribute Section Formatting ----------
 %%% calloutline 1: callout ID 2: text
 %%% Adds a small callout to the beginning of the line for ease-of-reading
-\def\calloutline#1#2{\noindent \vdots\ {\large #1} \vdots\ #2}
+\def\calloutline#1#2{\vbox{\hbox{\vdots\ {\large #1} \vdots}}\linebreak\noindent #2\vspace{1.00em}\linebreak}
 
+%%Attribute Intro
+\def\attrlineIntro#1{\begin{center}\textsl{#1}\end{center}}
+
+%% Attribute Line "How" 
+\def\attrlineHow#1{\calloutline{How it works}{#1}}
+%% Attribute Line "Where"
+\def\attrlineWhere#1{\calloutline{Where it's used}{#1}}
 
 %%% vsObstacle/vsCharacter 1: Text
 %%% Adds a small callout to the beginning of the line to better segregate conditions for each situation
