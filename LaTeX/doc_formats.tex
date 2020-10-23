@@ -64,7 +64,7 @@
 %% Attribute Section Formatting ----------
 %%% calloutline 1: callout ID 2: text
 %%% Adds a small callout to the beginning of the line for ease-of-reading
-\def\calloutline#1#2{\vbox{\hbox{\vdots\ {\large #1} \vdots}}\linebreak\noindent #2\vspace{1.00em}\linebreak}
+\def\calloutline#1#2{\noindent\vbox{\hbox{\vdots\ {\large #1} \vdots}}\leavevmode\linebreak#2\vspace{1.00em}\linebreak}
 
 %%Attribute Intro
 \def\attrlineIntro#1{\begin{center}\textsl{#1}\end{center}}
@@ -83,4 +83,20 @@
 %%% Adds a small callout to the beginning of the line to make the BURST boost seem more important and exciting
 \def\burstline#1{\calloutline{\BURST}{#1}}
 
+%%% Repeater 1: Number of times 2: Text to repeat
+%%% Repeats #2 #1 number of times 
+\def\repeater#1#2{
+	\newcount\tmp
+	\tmp=#1
+	\loop
+	#2
+	\advance \tmp -1
+	\ifnum \tmp>0
+	\repeat
+}
 
+%%%% For testing purposes only 
+%%% Sample
+%%% Makes a paragraph with sample text
+\def\sampletxt{
+Hey this is just a block of text to check the formatting because just doing lipsum is boring and I can't think of anything else at the moment for this section so we should brainstrom some stuff later to think of stuff to put in these sections because I can't think of anything else at the moment for this section so we should brainstrom some stuff later to think of stuff to put in these sections because I can't think of anything else at the moment for this section so we should brainstrom some stuff later to think of stuff to put in these sections because I can't think of anything else at the moment for this section.}

@@ -1,5 +1,5 @@
 % Don't compile this! This is only part of the manual it won't work on its own.
-\part{Character Creation}\label{part:char_creation}
+\part{Your Character}\label{part:char_creation}
 \chapter{Character \attribute s}\label{ch:char_attributes}
 
 % Intro --------------------------
@@ -12,7 +12,7 @@ Thematically a 0 just means that your character will be average in that
 area; you will still be able to make all of your necessary rolls--
 you just won't get any bonuses! 
 
-\subsection{\attribute\ Enhancement and \attrval}\label{subsec:attr_points}
+\subsection{\attrval and \attribute\ Enhancement}\label{subsec:attr_points}
 Throughout your campaign(s) your \attribute s will be able to be enhanced by spending \attribute\ Points (\attrval). Each point spent will increase the \attribute\ directly by the same amount. New characters will start with 50 \attrval\ to allocate how they wish. Afterwards they'll be earned at the end of a session, or by some other alternate means.
 
 \newplayr{Since new characters start with 50 \attrval\ this also means their starting \HPful\ is 50 and their starting \ENful\ is 100 so be careful!}
@@ -83,10 +83,10 @@ The notation for this section is as follows:
 \clearpage
 % Start Abilities
 \chapter{Abilities\index{Abilities}: \skill s and \techn s}\label{ch:skills_and_tech}
-Abitites are extra modifiers for your \attribute s during various situations. Generally they will work by replacing $[XXX]$ with $([XXX]+[Ability])$ in the usage formula. There are 3 categories for abilities: \skill s, \techn s, and \AWEAWF.
+Abilities reflect your character's specialties. They work in tandem with their \attribute s to determine what they can do, where they excel, and even where they are at their worst. There are 3 categories for abilities: \skill s, \techn s, and \AWEAWF.
 
 \section{\skill s\index{\skill s}}\label{sec:skills}
-\skill s represent your general knowledge of all things, and provide bonus(es) specifically to your \KNOW\ challenges. Their bonus is directly equal to the amount of \skill\ Points (\skillval) allocated to them. They affect the formula as so:
+\skill s represent your character's general knowledge of all things, and provide bonus(es) specifically to your \KNOW\ challenges. Their bonus is directly equal to the amount of \skill\ Points (\skillval) allocated to them. They affect the formula as so:
 \equview{$d100 + ([\KNOW]+[\skill])$}
 As an example, if your character has a {[}\KNOW{]} of 20 and a Knitting \skill\ of 37; then in a Knitting challenge, you will add your d100 roll to \textbf{57} instead of 20 to calculate the result.
 \newplayr{\skill s are used to perform a variety of quick tasks and can flesh out your character's past, present, and future. Before using \techn s, make sure you understand \skill s first.}
@@ -104,9 +104,16 @@ As an example, if your character has a {[}\KNOW{]} of 20 and a Knitting \skill\ 
 
 \notetoGM{This may seem like a free bonus, but to make your campaign(s)\footnoteref{subsec:campaigns} more interesting I recommend you, or even the player, try to put the character in \AWEAWF\ situations.}
 
+% Bio Modifications
+\chapter{Modifications}\label{ch:biomods}
+By tapping into the various technology branches characters can apply \emph{modifications} to go beyond their natural capabilities. They can add anything from new conditions to your actions to unique and powerful techniques to your arsenal. While the abilities that they bestow might be amazing they can also carry great risks, since in addition to opening your character to a potential new set of injuries based on the \emph{-Tech} type the mods can also carry side effects of their own.
+Modifying your character is, usually, optional. \emph{Modifications} are linked to specific parts on your character so before a modification is picked you must first decide the area where it will be applied. Once a \emph{modification} is applied it becomes a part of your character and will persist between sessions until, if at all possible, removed.
+Details regarding \emph{modifications} for each tech branch, such as applicable areas and effects, can be found in the \emph{Modification Archives}\footnoteref{sec:ref_enhance}
+
+\newplayr{Starting characters are generally given a choice of 1 free modification from a tech branch of their choice.} 
 % Character Development ------------------------------------------------------
 \chapter{Character Development}\label{ch:char_develop}
-Characters will always be developing as they're used and can undergo lasting changes at the end of, or even sometimes during, a session.
+In \gametitlemini your character is an individual and far from static. During sessions they'll travel, meet others, get into conflicts, and maybe even acquire a trinket or two. Everything is determined as it plays out, and depending on what happens your character will undergo lasting changes at the end of, or even sometimes during, a session.
 
 \section{\advancement\index{\advancement}}\label{sec:advancement}
 The GM may give players the opportunity to advance one \attribute\ and/or ability
@@ -117,8 +124,12 @@ When given the opportunity, you can pick an \attribute\ you used during this ses
 \subsection{Ability \advancement}\label{subsec:adv_ability}
 When given the opportunity, you may choose to either advance an existing ability or add a new one.
 
-\section{Injuries \& Enhancements}\label{sec:adv_injuries}
-You will experience physical, mental, and spiritual changes on your journey. I recommend keeping track of these over the campaign.
+\section{Injuries}\label{sec:adv_injuries}
+\emph{Injuries} can, and likely will, happen the more that your character gets into conflict over the course of your campaign(s). Whether it's to the body, mind, or pride an injury is a persistent, usually negative, condition that will affect your character in future sessions. An injury usually has a chance to be dealt when your character is dealt \emph{\HPful} damage, but certain situations could force an injury, or even be dealt at the GM's digression depending on how a situation plays out. Further details on injuries and their effects can be found in the \emph{Injuries Archive}\footnoteref{ch:ref_injure}.
+
+\section{Enhancements}\label{sec:adv_enhancements}
+\emph{Enhancements} are, as implied, a boost to your character in some way. These are generally positive conditions, and will stick with your character into future sessions. \emph{Enhancements} aren't consistently gained, and their acqusition is determined by where they're going and what, or who, they've interacted with. More details on \emph{enhancements} can be found in the \emph{Enhancements Archive}\footnoteref{ch:ref_enhance}.
+(Editor's note) I thought this was something else at first. I didn't realize enhancements meant bio-enhancements/modifications. My bad. Still, I'm leaving this here for now in case it's something we might want as an inverse to injuries.
 
 \section{Possessions}\label{sec:possessions}
 You will acquire a lot of artifacts, equipment, and trinkets over your journey. (author's note: right now it's all one area. I'm considering segmenting based on playtesting)(editor's note: we may need to reorganize a bit at some point yes)

@@ -1,0 +1,65 @@
+23 Oct 2020
++----------------------------------------------------------------------------------------+
+|                                      General Changes                                   |
++----------------------------------------------------------------------------------------+
++ Added new labels:
+part:archives
+
+ch:ref_injure
+ch:ref_enhance
+
+sec:adv_enhancements
+sec:gen_injuries
+sec:dies_injuries
+sec:cybr_injuries
+sec:bio_injuries
+sec:magi_injuries
+sec:diesel_mods
+sec:cybr_mods
+sec:bio_mods 
+sec:magi_mods
+
++ Added string marcos:
+\dieselt -> Diesel-Tech
+\cybert -> Cyber-Tech
+\biot -> Bio-Tech
+\magit -> Magi-Tech
+
++ Small copy changes, corrections, and grammar fixes
+
++----------------------------------------------------------------------------------------+
+|                                       Basic Mechanics                                  |
++----------------------------------------------------------------------------------------+
++ Removed the 'permanent wounds' section. Since we have 'injuries' already it seemed 
+redundant to have both since they work the same way.
+
++ Changed sections that reference 'permanent wounds' to reference 'injuries' instead. 
+
++----------------------------------------------------------------------------------------+
+|                                     Character Creation                                 |
++----------------------------------------------------------------------------------------+
++ Added section for Bio-Modifications, a blurb about what they do, and where to find 
+details.
++ Separated Injuries and Enhancements into their own sections and added rough sections on
+how they're determined and what they do. 
+
++----------------------------------------------------------------------------------------+
+|                                      Reference Tables                                  |
++----------------------------------------------------------------------------------------+
++ New file for lists of things like injuries, enhancements, skills, etc. Anything that 
+has multiple things to be referenced should be added to this thing.
+Current lists:
+	Modifications
+	- Areas that they can be assigned
+	- Charts to randomly assign
+	Injuries
+	- 5 types
+	- Minor,Mild,Major sections for each
+	- ** Maybe add charts to randomly assign like with mods?
+
+Things to think about cataloging: 
+	Skills
+	Techniques
+	Character Physical Traits
+	Common Universe Items (medi-gel, tools, etc.)
+	Currencies? Maybe RP dependent?
