@@ -19,6 +19,18 @@
 \def\fillrlinemost{\fillrline{0.8\linewidth}}
 \def\fillrlinefull{\fillrline{1.0\linewidth}} % :w for WHOOPS
 
+%%% Repeater 1: Number of times 2: Text to repeat
+%%% Repeats #2 #1 number of times 
+\def\repeater#1#2{
+	\newcount\tmp
+	\tmp=#1
+	\loop
+	#2
+	\advance \tmp -1
+	\ifnum \tmp>0
+	\repeat
+}
+
 %%% newplayr 1: Text
 %%% Sets up a figure box for callouts for new players
 \def\newplayr#1{%
@@ -61,6 +73,8 @@
 %%% Adds a page number reference in the foot notes based on the passed label.
 \def\footnoteref#1{\footnote{\nameref{#1}, pg. \pageref{#1}}}
 
+
+
 %% Attribute Section Formatting ----------
 %%% calloutline 1: callout ID 2: text
 %%% Adds a small callout to the beginning of the line for ease-of-reading
@@ -83,19 +97,15 @@
 %%% Adds a small callout to the beginning of the line to make the BURST boost seem more important and exciting
 \def\burstline#1{\calloutline{\BURST}{#1}}
 
-%%% Repeater 1: Number of times 2: Text to repeat
-%%% Repeats #2 #1 number of times 
-\def\repeater#1#2{
-	\newcount\tmp
-	\tmp=#1
-	\loop
-	#2
-	\advance \tmp -1
-	\ifnum \tmp>0
-	\repeat
-}
 
-%%%% For testing purposes only 
+% Reference Section Formatting ------------------------------------------
+%%% modentry 1:Title 2:Description 3:Effects 4:Removable by
+%%% Standard formatting for mod entries in the archives
+\def\modentry#1#2#3#4{\subsubsection*{#1}#2\linebreak\calloutline{Effects}{#3}\calloutline{Removable?}{#4}}
+\def\modsample{\modentry{Sample}{Description containing bits of lore, benefits, and potential drawbacks.}{A more consise view of all of the benefits and drawbacks.}{Steps to remove, if possible.}}
+
+
+%%%% For testing purposes only --------------------------------------
 %%% Sample
 %%% Makes a paragraph with sample text
 \def\sampletxt{

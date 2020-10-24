@@ -52,10 +52,11 @@ Current lists:
 	Modifications
 	- Areas that they can be assigned
 	- Charts to randomly assign
+	- Eventually the mods themselves
 	Injuries
 	- 5 types
 	- Minor,Mild,Major sections for each
-	- ** Maybe add charts to randomly assign like with mods?
+	- Charts to randomly assign like with mods
 
 Things to think about cataloging: 
 	Skills
