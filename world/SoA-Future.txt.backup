@@ -1,0 +1,27 @@
+The purpose of scaling values is to feel dramatic shifts in power gain over time.
+
+I want to tactically feel powerful instead of just having big numbers and fancy equipment.
+
+An experienced character should be physically changed with injuries and enhancements. They should have well developed abilities and several multi-stat techniques. Their character sheet tells a story.
+
+BURST serves as the equivalent to a "level" and a way to gauge progression & power level
+
+The pace is intended to be fast with big numbers and easy calculations. The action should hit hard with push-your-luck options.
+
+Extra values should be kept to a minimum. There should be enough to keep it crunchy but not so much to bloat complexity.
+
+The player should keep track of enhancements/injuries, People/Places/Things, and skills/techniques for the sake of role playing.  The only things that are not directly connected to roleplaying is the stats/Burst. Ideally, there are minimal abstract elements.
+
+There should be an injury table to add variety to the many injuries characters will face. This includes poisons, bio-enhancements, cybernetics, magic enchantments, etc.
+
+Some actions have conditions to meet (including but not limited to chargeups and cool downs. These conditions sometimes add Burst or something)
+
+Afterlife is for those who want it. There *are* mechanics for it but its purely optional
+
+#
+
+* KNO	B00 + r + Kno + (Skl)
+* POW	(B+1)(r+Pow)
+* END	r+End [for each B, remove one lowest die] [Add threshold to next attack roll]
+* SPD	Roll a pool of dice. For success > 0: {Add the threshold of each successful die to the total.  Remove failed dice from pool. Reroll remaining dice.} [success is measured]
+* ESP	guess opposing total within Esp threshold [for each success, remove one highest die] [add the total from the dice you remove to next attack]
