@@ -1,0 +1,45 @@
+Values currently Scale from 01-100 with special effects from burst. Each stat also affects the total
+* KNO	T=r+m  [T is total, r is roll, m is modifier]
+* POW	T=x(r+m) [x is # of dice]
+* END	T=x(r+m) [x is # of turns]
+* SPD	T=x(r+m) [x is max # of rolls]
+* ESP	P=x>(r+-m) [x is the guessed #]
+
+#
+
+max 
+* KNO	199 before BURST
+* POW	299 before BURST
+* END	398 over 2 turns before BURST
+* SPD	398 before BURST
+* ESP	Pass
+
+#
+
+BURST
+* KNO	B100+Kno
+* POW	B = x
+* END	B = x
+* SPD	B = x
+* ESP	B guesses
+
+#
+
+Fast paced with some stops for complicated calculations
+
+#
+
+Health & energy balance
+Consciously thinking of status and values to mash together
+
+#
+
+Roleplaying significance 
+
+#
+
+???
+
+#
+
+No base list
