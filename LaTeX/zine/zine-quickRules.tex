@@ -1,0 +1,70 @@
+\documentclass[statementpaper,oneside,article,14pt]{memoir}
+\usepackage{geometry}
+\usepackage{libertine}
+\usepackage{kantlipsum}
+
+% Disable chapter/section numbering.
+\setsecnumdepth{none}
+\maxsecnumdepth{none}
+
+% Optional background
+% http://tex.stackexchange.com/a/276280
+\usepackage{transparent}
+\usepackage{eso-pic}
+\newcommand{\BackgroundPic}[1]{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			{\transparent{0.4} \includegraphics[width=\paperwidth,height=\paperheight,%
+				keepaspectratio]{#1}}%
+			\vfill
+}}}
+
+\begin{document}
+	
+	% Edit inside the { brackets } to change these.
+	
+	\title{Story of Adventure}
+	\author{J.H. Freedman}
+	\date{}
+	
+	\begingroup
+	\let\cleardoublepage\clearpage
+	
+	% \AddToShipoutPicture*{\BackgroundPic{samplecover}}
+	
+	\begin{titlingpage}
+		\maketitle
+		
+		A TTRPG Engine for Creativity\\Alpha 1.0
+		
+	\end{titlingpage}
+	
+	\endgroup
+	
+	% As the zine is so short, you probably won't need page numbers; however, if you
+	% want them, comment out the next line with a %.
+	\pagestyle{empty}
+	
+	
+	%% CONTENT GOES BELOW
+	
+	\section*{Why would I play this?}
+	
+	\section*{How does it work?}
+	
+	\section*{Advanced rules}
+	
+	\section*{Campaigns}
+	
+	%% CONTENT ENDS
+	
+	% Back cover
+	
+	\newpage
+	
+	Reverse this zine for character creation
+	\\jacob@jhfreedman.com
+	
+\end{document}

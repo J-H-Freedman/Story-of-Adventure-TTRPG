@@ -1,0 +1,68 @@
+\documentclass[statementpaper,oneside,article,14pt]{memoir}
+\usepackage{geometry}
+\usepackage{libertine}
+\usepackage{kantlipsum}
+
+% Disable chapter/section numbering.
+\setsecnumdepth{none}
+\maxsecnumdepth{none}
+
+% Optional background
+% http://tex.stackexchange.com/a/276280
+\usepackage{transparent}
+\usepackage{eso-pic}
+\newcommand{\BackgroundPic}[1]{%
+	\put(0,0){%
+		\parbox[b][\paperheight]{\paperwidth}{%
+			\vfill
+			\centering
+			{\transparent{0.4} \includegraphics[width=\paperwidth,height=\paperheight,%
+				keepaspectratio]{#1}}%
+			\vfill
+}}}
+
+\begin{document}
+	
+	% Edit inside the { brackets } to change these.
+	
+	\title{Character Creation}
+	\date{}
+	\begingroup
+	\let\cleardoublepage\clearpage
+	
+	% \AddToShipoutPicture*{\BackgroundPic{samplecover}}
+	
+	\begin{titlingpage}
+		\maketitle
+		
+		for Story of Adventure
+		
+	\end{titlingpage}
+	
+	\endgroup
+	
+	% As the zine is so short, you probably won't need page numbers; however, if you
+	% want them, comment out the next line with a %.
+	\pagestyle{empty}
+	
+	
+	%% CONTENT GOES BELOW
+	
+	\section*{Story Driven Guidelines}
+	
+	\section*{Creating Custom Abilities}
+	
+	\section*{Point-buy Shop}
+	
+	\section*{Character Sheet Reference}
+	
+	%% CONTENT ENDS
+	
+	% Back cover
+	
+	\newpage
+	
+	Reverse this zine for quick rules
+	\\jacob@jhfreedman.com
+	
+\end{document}
