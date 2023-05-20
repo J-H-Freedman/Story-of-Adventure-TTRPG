@@ -1,3 +1,7 @@
 
 *.aux
 *.gz
+*.aux
+*.gz
+LaTeX/zine/zine-finalRender.log
+*.aux
