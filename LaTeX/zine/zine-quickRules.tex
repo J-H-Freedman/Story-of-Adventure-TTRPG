@@ -26,7 +26,7 @@
 	
 	% Edit inside the { brackets } to change these.
 	
-	\title{\underline{Story of Adventure}:\\Quick Rules}
+	\title{\underline{Story of Adventure}\\Quick Rules}
 	\author{J.H. Freedman}
 	\date{}
 	
@@ -37,7 +37,8 @@
 	
 	\begin{titlingpage}
 		\maketitle
-		
+	
+		\vspace*{\fill}
 		A TTRPG Engine for Creativity\\Alpha 1.0
 		
 	\end{titlingpage}
@@ -60,40 +61,97 @@
 	Character creation is truly open with the freedom to create every ability from scratch and have them evolve with each level of power. Will you choose to develop several abilities, responding to the story's unfolding events? Or go all in on one signature ability and push it to its limit?
 	
 	\section*{How does it work?}
-	Like any other TTRPG, there is a ST and the amount of players they can comfortably handle (typically 2-4). The group will create a collaborative story using Original Characters (OCs) while the ST throttles tension with various Challenges involving Fudge dice.
+	Like any other TTRPG, there is a ST and the amount of players they can comfortably handle (typically 2-4). The group will create a collaborative story using Original Characters (OCs) while the ST throttles tension with various Challenges involving \textit{Fudge dice}. 
 	
 	\begin{description}
 		\item[Note] this specific zine will focus on traditional combat based challenges and scenarios, but keep in mind that any activity can be a Story of Adventure!  You can do horse racing, competitive cooking, etc. Just be prepared for it to get weird :)
 	\end{description}
 	
 	\subsection*{What are Fudge dice?}
-	Fudge dice (dF) are six sided dice (d6) that have two sides with a plus, two sides with a minus, and two sides with a blank. A typical roll is 4dF where [+] and [-] cancel each other out. The result skews Neutral. These dice are used to visually identify degrees of success and failure at a glance. 
+	Fudge dice (dF) are six sided dice (d6) that have two sides with a plus, two sides with a minus, and two sides with a blank. These dice are used to visually identify degrees of success and failure at a glance. Despite saying "pass" and "fail" in this zine, remember to always take degrees into account to tell a better story :)
 	
-	If all you have are d6s, then you can treat them like d3 in which:
-	\begin{itemize}
-		\item 1 and 2 is [-]
-		\item 3 and 4 is [\_]
-		\item 5 and 6 is [+]
-	\end{itemize}
+	If all you have are d6s, then:\\
+		 1 and 2 is [-], \\
+		 3 and 4 is [\_], \\
+		 5 and 6 is [+]
 	
-	\subsection*{Challenges and Overcoming Them}
 	\begin{description}
-		\item[Chance] \textit{standard 4dF roll with no external modifiers.} These can be used to decide the contents of a chest, an NPC's initial disposition, or even the weather.
-		\begin{description}
-			\item[Note] A total of 0+ is a result that neither benefits nor harms the party. However, that doesn't necessarily imply there are no consequences.
-		\end{description}
-		\item[Challenge] \textit{x+ needed to pass.} These are the same as Chance rolls except with a greater likelihood for failure. 
-		\item[Cumulative] \textit{x+ intended to be solved over multiple turns}. 
-		\item[Competitive] \textit{xdF vs xdF}
+		\item[Note] I will frequently notate the amount of dice as \textit{x}. The \textit{x} is for long term scalability to include high-level games of up to 10dF.\\
+		\textbf{When starting out 4dF is considered the standard roll. Substitute xdF for 4dF until more advanced levels of play}.
+	\end{description}	 
+	 
+	
+	\section*{Tension}
+	As an ST, your job is to choose the difficulty of each challenge the OCs encounter. I call this throttling tension, and it is the most important skill a ST can develop. When done well, you can throttle the pacing from a power fantasy to a survival horror and everything in-between. Here are the different types you'll be working with:
+	
+	\subsection*{Challenge Types}
+	\begin{description}
+		\item[Challenge] \textit{x+ needed to pass} \\Most common reason to roll dice
+		\item[Competitive] \textit{ xdF vs xdF after modifiers} \\Two characters roll against each other. As many modifiers as applicable may be applied.
+		\item[Cumulative] \textit{Bank all {[+]} until x+ is met} \\Solved with multiple turns and/or people
+	\end{description}
+
+	\subsection*{Challenge Subtypes}
+	\begin{description}
+	\item[Chance] [+] and [-] cancel each other out.  Ignore nothing. Most common challenge type.
+	\item[Threshold] Count [+] needed to pass. Ignore [\_] and [-]
+	\item[Empowered] [\_] counts towards threshold. Ignore [-]
+	\end{description}	
+		
+	\section*{Balanced Tension}
+	More often than not, the tension should be balanced. Due to the already swingy and unforgiving nature of Fudge dice, it will take a few sessions before you'll get the feel for throttling; so I recommend going low and slow. With that said, don't be afraid to make mistakes and have fun :)
+	\begin{description}
+		\item[Chance Challenge] 0+; more dice flattens the bell curve, but allows for higher highs and lower lows
+		\item[Threshold Challenge] 1+ per 3 dice 
+		\item[Empowered Challenge] 2+ per 3 dice
+		\item[Threshold Cumulative] 1+ per 3 dice per turn
 	\end{description}
 		
 	\section*{Banking dice}
-	Although the system is designed around degrees of success, the finesse of the Game Master rests in controlling tension. There are a couple different ways to perform a simple skill check:
-	\begin{itemize}
-		\item Threshold: Count [+] needed to pass. Ignore other results.
-		\item Empowered: [\_] count towards threshold. Ignore [-] results.
-	\end{itemize}
+	Many mechanics will have players set dice to the side, with their result preserved, for future use if they meet certain conditions.
+	% Banking a die is when you store it to the side with the result preserved for future use.
+	Doing so removes it from your dice pool until it is spent. Once it is spent, it returns to your dice pool as normal. This is only done in specific cases-- not at-will.
 	
+	\section*{Plot tokens}
+	When rolling at least 4dF, plot tokens are rewards for statistical anomalies of natural all[+]s and natural all[-] rolls. \textit{Any} natural roll like this may be rewarded a Plot token.
+	
+	\begin{description}
+		\item[nat all{[+]}] the token is given to the player. When spent, instead of rolling, the Challenge's result is treated like an all[-] 
+		\item[nat all{[-]}] the token is given to the ST. When spent, instead of rolling, the Challenge's result is treated like an all[-] 
+	\end{description}
+	
+	I encourage these to be used in underdog moments to disrupt expected outcomes and create memorable scenes.
+	
+	
+	\section*{Advanced Challenge Subtypes}
+	
+	\begin{description}
+		\item[Advantage] Bank and spend x+ for this roll
+		\item[Disadvantage] Bank and spend x- for this roll
+		\item[Dual Fates] Reroll all blanks. The [+] results apply to one thing, and the [-] results apply to another.
+		\item[Cooperative] \textit{xdF + xdF + ... xdF}\\Multiple characters may participate in most challenges. It is recommended to cooperate with threshold and empowered challenges, but approach Chances with caution-- for \textit{all} [-]s are still counted.
+	\end{description}
+		
+		
+	\section{Advanced Competition Challenge Rules}
+	For the sake of preconcieved expectations, I will use the language of combat, but remember that these rules can apply to non-violent situations.
+	\subsection{melee}
+	\subsubsection{clash}
+	\begin{description}
+		\item[xdF vs xdF] 
+		  Whoever rolls higher has their full attack go through. If no one wins no damage is done. 
+		  % Invoke a dual fated 4dF roll to decide next turn advantage
+	\end{description}
+	\subsubsection{dirty}
+	\begin{itemize}
+		\item[xdF vs xdF-1] If you win, your full attack goes through. If you lose, there is no damage; but you gain disadvantage for your next roll.
+	\end{itemize}
+	\subsubsection{ranged}
+	\begin{itemize}
+		\item  Roll xdF to aim
+		\item  Roll XdF for destruction. Even upon a miss, there is collateral damage somewhere (STs are encouraged to have fun with this)
+	\end{itemize}
+
 	%\section*{Campaigns}
 	
 	%% CONTENT ENDS
@@ -101,6 +159,8 @@
 	% Back cover
 	
 	\newpage
+	
+	\vspace*{\fill}
 	
 	Reverse this zine for character creation
 	\\jacob@jhfreedman.com
