@@ -5,3 +5,4 @@
 *.gz
 LaTeX/zine/zine-finalRender.log
 *.aux
+*.log
