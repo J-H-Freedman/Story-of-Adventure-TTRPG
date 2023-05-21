@@ -6,3 +6,5 @@
 LaTeX/zine/zine-finalRender.log
 *.aux
 *.log
+*.gz
+*.odt#
