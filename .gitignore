@@ -8,3 +8,4 @@ LaTeX/zine/zine-finalRender.log
 *.log
 *.gz
 *.odt#
+*.synctex(busy)
